@@ -1,0 +1,166 @@
+{
+  "artifact_id": "g5_oriented_lift_crucible_001",
+  "audit_pass": true,
+  "central_extension_census": [
+    {
+      "element_order_profile": {
+        "1": 1,
+        "2": 3
+      },
+      "group": "C2_x_C2",
+      "normalized_cocycle_f_1_1": 0,
+      "split": true
+    },
+    {
+      "element_order_profile": {
+        "1": 1,
+        "2": 1,
+        "4": 2
+      },
+      "group": "C4",
+      "normalized_cocycle_f_1_1": 1,
+      "split": false
+    }
+  ],
+  "checks": {
+    "all_edges_preserved": true,
+    "black_cycle_reverses": true,
+    "drawing_one_bound": true,
+    "five_edges": true,
+    "four_signed_lifts_enumerated": true,
+    "four_vertices": true,
+    "literal_orientation_action_squares_to_plus_one": true,
+    "mirror_apices_exchanged": true,
+    "nonsplit_extension_is_c4": true,
+    "rho_squared_is_identity": true,
+    "shared_edge_fixed_pointwise": true,
+    "source_manifest_hash_exact": true,
+    "split_extension_is_v4": true,
+    "two_nonsplit_lifts": true,
+    "two_split_lifts": true,
+    "two_triangular_faces": true,
+    "white_cycle_reverses": true
+  },
+  "closed_claims": {
+    "confirmed_g5_model_has_mirror_automorphism": true,
+    "exactly_two_central_extension_classes_exist": true,
+    "mirror_automorphism_has_order_two": true,
+    "mirror_automorphism_reverses_both_face_cycles": true,
+    "nonsplit_c4_lift_exists_as_algebraic_candidate": true
+  },
+  "confirmed_source_transcription": {
+    "black_triangle_is_mirrored_flip_not_filled_face": true,
+    "cycle_reverses_direction_at_stage_5": true,
+    "left_column_records_cycle_direction": true,
+    "stage_5_is_two_triangles_sharing_one_edge": true
+  },
+  "interpretation": "Under the author-confirmed source transcription, G5 has an exact order-two mirror automorphism. The local oriented face action selects the split square-plus-one class. A nonsplit C4 lift exists but is not forced by terminal G5 geometry alone.",
+  "keeper": "The mirror is an automorphism. The minus sign is not yet a theorem.",
+  "measurements": {
+    "black_to_white_orientation_sign": -1,
+    "edge_count": 5,
+    "face_count": 2,
+    "gauge_inequivalent_extension_class_count": 2,
+    "literal_action_order": 2,
+    "literal_action_square_sign": 1,
+    "signed_lift_count": 4,
+    "vertex_count": 4,
+    "white_to_black_orientation_sign": -1
+  },
+  "model": {
+    "black_face_orientation": [
+      "v",
+      "u",
+      "black_apex"
+    ],
+    "edges": [
+      [
+        "black_apex",
+        "u"
+      ],
+      [
+        "black_apex",
+        "v"
+      ],
+      [
+        "u",
+        "v"
+      ],
+      [
+        "u",
+        "white_apex"
+      ],
+      [
+        "v",
+        "white_apex"
+      ]
+    ],
+    "mirror_automorphism": {
+      "black_apex": "white_apex",
+      "u": "u",
+      "v": "v",
+      "white_apex": "black_apex"
+    },
+    "vertices": [
+      "u",
+      "v",
+      "white_apex",
+      "black_apex"
+    ],
+    "white_face_orientation": [
+      "u",
+      "v",
+      "white_apex"
+    ]
+  },
+  "next_target": "Test whether the ordered construction filtration from pre-null through G5, including the stage-5 reversal event, selects the nonsplit C4 cocycle.",
+  "open_boundary": {
+    "construction_filtration_selects_cocycle": false,
+    "electron_constructed": false,
+    "finite_spinor_constructed": false,
+    "full_stage_history_tested": false,
+    "g60_registration_selects_cocycle": false,
+    "g900_closure_selects_cocycle": false,
+    "literal_oriented_g5_action_is_nonsplit": false,
+    "local_g5_forces_nonsplit_c4_lift": false,
+    "physics_claim": false
+  },
+  "schema": "electron_spins_twice.g5_oriented_lift_crucible.v1",
+  "signed_lift_census": [
+    {
+      "extension_class": "split",
+      "lift_order": 2,
+      "minus_to_plus": -1,
+      "plus_to_minus": -1,
+      "square_sign": 1
+    },
+    {
+      "extension_class": "nonsplit",
+      "lift_order": 4,
+      "minus_to_plus": 1,
+      "plus_to_minus": -1,
+      "square_sign": -1
+    },
+    {
+      "extension_class": "nonsplit",
+      "lift_order": 4,
+      "minus_to_plus": -1,
+      "plus_to_minus": 1,
+      "square_sign": -1
+    },
+    {
+      "extension_class": "split",
+      "lift_order": 2,
+      "minus_to_plus": 1,
+      "plus_to_minus": 1,
+      "square_sign": 1
+    }
+  ],
+  "source": {
+    "drawing_file": "01-1000020669.jpg",
+    "drawing_sha256": "673261e99106452d63e80061a44e6e3bc4452a5d82ba00abaadddc586efe1134",
+    "manifest_path": "paper/figures/source-drawings/source_drawings_manifest.v1.json",
+    "manifest_sha256": "b277f4dac89afc39fea4b3fef3d3b892a604de3a5602683aeec447ad8c012d06"
+  },
+  "verdict": "g5_forces_order2_mirror_and_permits_but_does_not_force_order4_lift"
+}
