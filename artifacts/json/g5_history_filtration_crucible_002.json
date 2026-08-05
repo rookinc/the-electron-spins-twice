@@ -1,0 +1,199 @@
+{
+  "artifact_id": "g5_history_filtration_crucible_002",
+  "audit_pass": true,
+  "checks": {
+    "gauge_class_count_2": true,
+    "history_cycle_rank_1": true,
+    "history_edge_count_8": true,
+    "history_vertex_count_8": true,
+    "mirror_exchanges_g4_branches": true,
+    "mirror_has_order_2": true,
+    "negative_assignment_count_128": true,
+    "negative_class_has_no_strict_representative": true,
+    "negative_class_mirror_closed_up_to_gauge": true,
+    "one_negative_gauge_class": true,
+    "one_positive_gauge_class": true,
+    "positive_assignment_count_128": true,
+    "reciprocal_histories_are_distinct": true,
+    "sign_assignment_count_256": true,
+    "source_artifact_hash_exact": true,
+    "source_artifact_passed": true,
+    "strict_mirror_assignment_count_64": true,
+    "strict_mirror_assignments_all_positive": true
+  },
+  "closed_claims": {
+    "exactly_two_z2_connection_classes_exist": true,
+    "negative_class_is_mirror_closed_up_to_gauge": true,
+    "negative_class_is_unique_up_to_gauge": true,
+    "one_negative_holonomy_class_exists": true,
+    "reciprocal_history_space_has_cycle_rank_one": true,
+    "strict_mirror_connections_have_positive_holonomy": true
+  },
+  "gauge_class_census": [
+    {
+      "canonical_assignment": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "holonomy_values": [
+        1
+      ],
+      "mirror_closed_up_to_gauge": true,
+      "orbit_size": 128,
+      "strict_mirror_representative_count": 64
+    },
+    {
+      "canonical_assignment": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "holonomy_values": [
+        -1
+      ],
+      "mirror_closed_up_to_gauge": true,
+      "orbit_size": 128,
+      "strict_mirror_representative_count": 0
+    }
+  ],
+  "history_model": {
+    "cycle_edges": [
+      "plus_in",
+      "plus_out",
+      "minus_out",
+      "minus_in"
+    ],
+    "edges": [
+      [
+        "stem_pre_0",
+        "pre_null",
+        "G0"
+      ],
+      [
+        "stem_0_1",
+        "G0",
+        "G1"
+      ],
+      [
+        "stem_1_2",
+        "G1",
+        "G2"
+      ],
+      [
+        "stem_2_3",
+        "G2",
+        "G3"
+      ],
+      [
+        "plus_in",
+        "G3",
+        "G4_plus"
+      ],
+      [
+        "plus_out",
+        "G4_plus",
+        "G5"
+      ],
+      [
+        "minus_in",
+        "G3",
+        "G4_minus"
+      ],
+      [
+        "minus_out",
+        "G4_minus",
+        "G5"
+      ]
+    ],
+    "history_minus": [
+      "pre_null",
+      "G0",
+      "G1",
+      "G2",
+      "G3",
+      "G4_minus",
+      "G5"
+    ],
+    "history_plus": [
+      "pre_null",
+      "G0",
+      "G1",
+      "G2",
+      "G3",
+      "G4_plus",
+      "G5"
+    ],
+    "mirror_vertex_map": {
+      "G0": "G0",
+      "G1": "G1",
+      "G2": "G2",
+      "G3": "G3",
+      "G4_minus": "G4_plus",
+      "G4_plus": "G4_minus",
+      "G5": "G5",
+      "pre_null": "pre_null"
+    },
+    "vertices": [
+      "pre_null",
+      "G0",
+      "G1",
+      "G2",
+      "G3",
+      "G4_plus",
+      "G4_minus",
+      "G5"
+    ]
+  },
+  "interpretation": "Admitting the source-ordered G4 branch and its derived mirror branch creates a single cycle in construction-history space. That cycle supports one positive and one negative Z2 gauge class. The negative class is unique up to gauge and mirror-closed only projectively, but history topology alone does not select it.",
+  "keeper": "The history creates a place for the minus sign. It does not yet choose it.",
+  "measurements": {
+    "cycle_rank": 1,
+    "edge_count": 8,
+    "gauge_class_count": 2,
+    "negative_holonomy_assignment_count": 128,
+    "positive_holonomy_assignment_count": 128,
+    "sign_assignment_count": 256,
+    "strict_mirror_assignment_count": 64,
+    "strict_mirror_negative_count": 0,
+    "strict_mirror_positive_count": 64,
+    "vertex_count": 8
+  },
+  "model_boundary": {
+    "both_g4_branches_admitted_in_history_state_space": true,
+    "drawing_3_turn_return_law_used": false,
+    "full_source_construction_grammar_encoded": false,
+    "minus_history_is_derived_mirror_branch": true,
+    "plus_history_is_source_ordered_branch": true,
+    "pre_null_is_meta_state_not_graph": true
+  },
+  "next_target": "Encode the directed A-B-C turn-and-return procedure from drawing 3 and test whether it selects the unique negative history class without importing a desired sign.",
+  "open_boundary": {
+    "drawing_3_selects_connection": false,
+    "finite_spinor_constructed": false,
+    "history_topology_selects_negative_class": false,
+    "negative_holonomy_forced": false,
+    "order4_lift_forced": false,
+    "physics_claim": false,
+    "projective_mirror_lift_derived": false,
+    "strict_mirror_connection_realizes_negative_class": false
+  },
+  "schema": "electron_spins_twice.g5_history_filtration_crucible.v1",
+  "source": {
+    "artifact_id": "g5_oriented_lift_crucible_001",
+    "artifact_path": "artifacts/json/g5_oriented_lift_crucible_001.json",
+    "artifact_sha256": "ce67ad34e8a68bd85bccf6a38222a607b858e70573fdd2ace8c14ba4b672641a",
+    "source_verdict": "g5_forces_order2_mirror_and_permits_but_does_not_force_order4_lift"
+  },
+  "verdict": "ordered_history_creates_one_nontrivial_z2_holonomy_class_but_does_not_select_it"
+}
