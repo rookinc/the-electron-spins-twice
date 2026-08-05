@@ -1,0 +1,195 @@
+{
+  "author_confirmed_semantics": {
+    "bottom_endpoint_symbol": "upside_down_not_even_null",
+    "bottom_endpoint_symbol_is_time_variable": false,
+    "candidate_action_domain": "one_registered_V4_channel_chart",
+    "channel_chart": {
+      "bottom": "1",
+      "left": "a",
+      "right": "b",
+      "top": "ab"
+    },
+    "channel_set": [
+      "1",
+      "a",
+      "b",
+      "ab"
+    ],
+    "construction_count": 1,
+    "reflected_motif_registration": {
+      "fixed_center_index": 5,
+      "fixed_center_role": "I",
+      "literal_carrier_edge_walk": false,
+      "model_kind": "reflected_role_motif",
+      "reflection_map_on_positions": "j -> 10-j",
+      "role_sequence": [
+        "W",
+        "X",
+        "Y",
+        "Z",
+        "T",
+        "I",
+        "T",
+        "Z",
+        "Y",
+        "X",
+        "W"
+      ],
+      "word": "WXYZTITZYXW"
+    },
+    "top_channel_role": "winder"
+  },
+  "claim_boundary": {
+    "D8_selected_unconditionally": false,
+    "action_domain_selected": true,
+    "author_channel_roles_bound": true,
+    "bottom_symbol_interpreted_as_time": false,
+    "central_I_operation_selected": false,
+    "construction_is_one_whole": true,
+    "direct_ab_route_compared_with_composed_a_b_route": false,
+    "drawing09_reflected_motif_registered": true,
+    "electron_constructed": false,
+    "finite_spinor_constructed": false,
+    "g60_automorphism_proved_by_drawings": false,
+    "g900_identification_proved": false,
+    "g900_local_chart_proved": false,
+    "literal_G60_carrier_walk_claim": false,
+    "nontrivial_cocycle_selected": false,
+    "one_four_eight_derived": false,
+    "order4_lift_forced": false,
+    "physics_claim": false,
+    "project41_native_palindrome_selector_found": false,
+    "project41_palindrome_ambiguity_reduced": false,
+    "reflection_has_unique_fixed_I_position": true,
+    "returned_W_bound_as_ab_square": false,
+    "selected_action_domain": "registered_V4_channel_chart",
+    "statement": "The manifest preserves nine primary drawings, binds the author-confirmed V4 channel roles, and registers WXYZTITZYXW as a reflected role motif with central I. It does not define a literal G60 walk, select the central I operation, identify returned W with the square of the ab winder, or force an order-four lift."
+  },
+  "drawings": [
+    {
+      "bytes": 425001,
+      "file": "01-1000020669.jpg",
+      "height": 1536,
+      "sequence": 1,
+      "sha256": "673261e99106452d63e80061a44e6e3bc4452a5d82ba00abaadddc586efe1134",
+      "visual_inventory": "Hand-drawn stage sequence from null through point, segment, open triangular form, closed triangular form, and a final two-face or filled-cell form.",
+      "width": 1152
+    },
+    {
+      "bytes": 474417,
+      "file": "02-1000017570.jpg",
+      "height": 1536,
+      "sequence": 2,
+      "sha256": "602d1a26d6ef37dd5e90b54197de265c63e6bafbb2b22a4237776e6e5313d954",
+      "visual_inventory": "Hand-drawn registered circular and rosette constructions using labels including i, 0, 1, x, y, z, and t.",
+      "width": 1152
+    },
+    {
+      "bytes": 546908,
+      "file": "03-1000017339.jpg",
+      "height": 1536,
+      "sequence": 3,
+      "sha256": "9bfaa6f7d211ee24d79ee78404860212a9fe4f33dfb9c9a27a1653e5a2b4a2fe",
+      "visual_inventory": "Hand-drawn directed A-B-C turn and return construction with written procedural notes concerning motion, distance, turn, proportion, and closure.",
+      "width": 1152
+    },
+    {
+      "bytes": 332935,
+      "file": "04-1000016926.jpg",
+      "height": 1152,
+      "sequence": 4,
+      "sha256": "8777067c22260fb86a16d990b767a106699357ccae9b8a50bec2ff814e2694a1",
+      "visual_inventory": "Hand-drawn nested triangular incidence or development sketch with repeated internal subdivisions and labeled boundary points.",
+      "width": 1536
+    },
+    {
+      "bytes": 357458,
+      "file": "05-1000014165.jpg",
+      "height": 1536,
+      "sequence": 5,
+      "sha256": "e70104e0a268096ce10ebb0d06185b6422f5f35780558902d91c874bc72c1af4",
+      "visual_inventory": "Hand-drawn three-arm spiral centered at i with the surrounding arms labeled x, y, z, and t.",
+      "width": 1152
+    },
+    {
+      "bytes": 489870,
+      "file": "06-1000037700.jpg",
+      "height": 1536,
+      "sequence": 6,
+      "sha256": "f01b5f55b07b1cf2a2075efbbd419b1d3e7f4821e546183be18764675743f0b7",
+      "visual_inventory": [
+        "One cross-shaped registered construction is drawn.",
+        "The author identifies the left channel as a.",
+        "The author identifies the right channel as b.",
+        "The author identifies the upper channel as the ab winder.",
+        "A central fourfold oriented motif joins the channels."
+      ],
+      "width": 1152
+    },
+    {
+      "bytes": 492153,
+      "file": "07-1000037701.jpg",
+      "height": 1536,
+      "sequence": 7,
+      "sha256": "5009d1cd4dc66d47648ef64e93cc31bdd585f9a56705ceb9119b58881f1f27ad",
+      "visual_inventory": [
+        "The same single construction is extended downward.",
+        "The added lower arm supplies the reference channel.",
+        "Alternating oriented triangle motifs appear along the lower arm.",
+        "A rectangular enclosure is visible around part of the lower arm.",
+        "The enclosure has not yet been assigned a formal role."
+      ],
+      "width": 1152
+    },
+    {
+      "bytes": 501247,
+      "file": "08-1000037702.jpg",
+      "height": 1536,
+      "sequence": 8,
+      "sha256": "9219aaaa2f8d51753905a5ffc5cb8806e5393948fdfc1533e37a7aedec6967cc",
+      "visual_inventory": [
+        "The author confirms the bottom arm as the 1 channel.",
+        "The four channel roles are 1, a, b, and ab.",
+        "Rotated not-even-null endpoint symbols are marked.",
+        "The T-like bottom mark is the upside-down not-even-null symbol.",
+        "The bottom mark is not selected as a time variable.",
+        "Red circles and a red transverse line are visible but not yet formalized."
+      ],
+      "width": 1152
+    },
+    {
+      "bytes": 490261,
+      "file": "09-1000037704.jpg",
+      "height": 1536,
+      "sequence": 9,
+      "sha256": "dd9c5ad516e218a79aaf7fdf8635ca9ba1eaa967484f22512d72f4f320c25796",
+      "visual_inventory": [
+        "The author identifies the complete role word as WXYZTITZYXW.",
+        "The word has reflected role order around one central I position.",
+        "The drawing continues the registered V4 channel construction from drawings six through eight.",
+        "The source registration does not identify the word as a literal G60 carrier-edge walk."
+      ],
+      "width": 1152
+    }
+  ],
+  "manifest_id": "registered_spiral_source_drawings_003",
+  "next_target": "construct or refute an exact state-domain bridge from the registered returned-W role to the square of the ab winder",
+  "preservation": {
+    "embedded_exif_present": false,
+    "embedded_xmp_present": false,
+    "file_count": 9,
+    "image_recompression_performed": false,
+    "original_jpeg_bytes_preserved": true
+  },
+  "provenance_statement": "The first five drawings are preserved primary sources for the registered spiral stages. Drawings six through eight are one author-identified V4 channel construction with channels 1, a, b, and ab. Drawing nine is the author-provided source registration for the reflected role motif WXYZTITZYXW.",
+  "repository_path": "paper/figures/source-drawings",
+  "schema": "electron_spins_twice.source_drawings_manifest.v3",
+  "source_class": "author_provided_primary_source_drawings",
+  "supersedes": {
+    "manifest_id": "registered_spiral_source_drawings_002",
+    "path": "paper/figures/source-drawings/source_drawings_manifest.v2.json",
+    "preserved_unchanged": true,
+    "sha256": "1cd12b45ccb2cc2d4d5522b60abb9a3505da2f6fd6ee0bf601282a9133f4331d"
+  },
+  "title": "Primary hand-drawing sources for the registered spiral, V4 channel synthesis, and reflected return motif"
+}
