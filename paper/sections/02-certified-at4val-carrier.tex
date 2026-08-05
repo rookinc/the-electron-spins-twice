@@ -1,2 +1,164 @@
-\section{The certified AT4val[60,6] carrier}
-\label{sec:certified-at4val-carrier}
+\section{The certified \texorpdfstring{$\operatorname{AT4val}[60,6]$}{AT4val[60,6]} carrier}
+
+The argument begins with a finite graph, not with a physical model and not
+with an interpretation of a drawing.  The graph is fixed before the spiral,
+the inverse construction, the signed lift, or the double-rotation claim is
+introduced.
+
+\begin{definition}[The registered carrier]
+Let
+\[
+    V_{60}=\{0,1,\ldots,59\}.
+\]
+The \emph{registered carrier} \(G_{60}=(V_{60},E_{60})\) is the simple
+tetravalent graph whose canonical 120-edge labeling is carried by the
+bundled certified payload
+\texttt{data/g60\_local\_edges.csv}.  As an unlabeled graph,
+\[
+    G_{60}\cong \operatorname{AT4val}[60,6]
+    \cong \operatorname{Graph52002}.
+\]
+The symbol \(\operatorname{Graph52002}\) denotes the House of Graphs
+identifier.  The notation \(\operatorname{AT4val}[60,6]\) is the GraphSym
+tetravalent arc-transitive census identifier.
+\end{definition}
+
+The canonical payload has 120 distinct unordered pairs, uses every vertex
+of \(V_{60}\), contains no loops, and gives degree four at every vertex.
+Consequently,
+\[
+    |V(G_{60})|=60,
+    \qquad
+    |E(G_{60})|=120,
+    \qquad
+    \deg(v)=4
+    \quad
+    (v\in V(G_{60})).
+\]
+These are carrier data.  They are not conclusions inferred from the
+geometry developed later.
+
+\begin{proposition}[Native Cayley presentation]
+In the standard action of \(A_{5}\) on
+\(\Omega=\{0,1,2,3,4\}\), set
+\[
+    x=(0\,1\,3),
+    \qquad
+    y=(1\,4\,2).
+\]
+Then
+\[
+    x^{-1}=(0\,3\,1),
+    \qquad
+    y^{-1}=(1\,2\,4),
+\]
+and the registered carrier has the exact presentation
+\[
+    G_{60}
+    \cong
+    \operatorname{Cay}
+    \bigl(
+        A_{5},
+        \{x,x^{-1},y,y^{-1}\}
+    \bigr).
+\]
+The four cross-products between the two inverse pairs have order five, and
+the four commutators determined by the two inverse pairs have order three.
+\end{proposition}
+
+\begin{proof}
+The certified order-60 transport audit constructs a regular action on the
+sixty vertices and identifies its regular group with the standard
+alternating group \(A_{5}\).  Under the exported vertex-to-group bijection,
+the four neighbors of the identity are exactly
+\[
+    S=\{x,x^{-1},y,y^{-1}\}.
+\]
+Direct multiplication in \(A_{5}\) verifies the four connection-element
+orders, the four cross-product orders, and the four commutator orders.
+Transport by left multiplication then reproduces every one of the 120
+edges of the canonical carrier.
+\end{proof}
+
+\begin{proposition}[Native four-state deck action]
+For the connection set
+\[
+    S=\{x,x^{-1},y,y^{-1}\},
+\]
+the connection-set stabilizer in \(A_{5}\) has order four and satisfies
+\[
+    N_{A_{5}}(S)\cong V_{4}.
+\]
+Its action agrees with the native four-state deck action of \(G_{60}\).
+The corresponding quotient has fifteen vertices and is intrinsically
+isomorphic to the line graph of the Petersen graph:
+\[
+    G_{60}/V_{4}\cong L(\operatorname{Petersen}).
+\]
+\end{proposition}
+
+\begin{proof}
+The \(A_{5}\)-conjugacy orbit of \(S\) has size fifteen.  Orbit-stabilizer
+therefore gives a stabilizer of size four.  The certified permutation
+action identifies its three nonidentity elements as involutions, hence the
+stabilizer is \(V_{4}\).  Its orbits on the sixty carrier states coincide
+with the native four-element fibers.  The induced fifteen-vertex quotient
+has the certified adjacency relation of \(L(\operatorname{Petersen})\).
+\end{proof}
+
+\begin{proposition}[Full carrier symmetry]
+The full automorphism group of the registered carrier has order \(480\).
+More precisely,
+\[
+    \operatorname{Aut}(G_{60})
+    \cong
+    \left\{
+        (\sigma,d)\in S_{5}\times D_{8}
+        :
+        \operatorname{sgn}(\sigma)=(-1)^{\chi(d)}
+    \right\},
+\]
+where \(D_{8}=\langle r,f\mid r^{4}=f^{2}=1,\ frf=r^{-1}\rangle\) and
+\[
+    \chi(r^{i}f^{j})=i\pmod 2.
+\]
+Thus \(\operatorname{Aut}(G_{60})\) is the fiber product of \(S_{5}\) and
+\(D_{8}\) over \(C_{2}\).
+\end{proposition}
+
+\begin{proof}
+The explicit certificate exports four generators of the native
+automorphism group and matches them with four generators of the displayed
+fiber product.  Extension by group words produces a bijection on all 480
+elements.  The certificate checks all \(480^{2}=230400\) ordered products,
+so the exported bijection is an isomorphism rather than an order
+coincidence.
+\end{proof}
+
+\begin{remark}[The \(G_{60}\)--\(G_{900}\) boundary]
+The identifiers \(\operatorname{AT4val}[60,6]\) and
+\(\operatorname{Graph52002}\) name the sixty-vertex carrier \(G_{60}\).
+They do not name the later 900-state closure.  The object \(G_{900}\) will
+be constructed from fifteen registered \(G_{60}\) fibers together with a
+separate gluing law.  The equality \(900=15\cdot60\) is a state count, not
+an identification of graphs.
+\end{remark}
+
+\paragraph{Reproducibility witnesses.}
+The bundled edge payload is the labeled carrier witness.  The Cayley,
+deck, quotient, and full-automorphism statements are independently recorded
+by the certificates
+\texttt{native\_g60\_order60\_cayley\_transport\_audit\_013.json},
+\texttt{connection\_stabilizer\_native\_deck\_action\_audit\_014.json},
+\texttt{intrinsic\_g15\_line\_petersen\_audit\_015.json},
+\texttt{explicit\_standard\_a5\_identification\_audit\_016.json}, and
+\texttt{native\_g60\_fiber\_product\_isomorphism\_044.json}.  The exact labeled bridge used here is bundled
+as \texttt{data/g60\_cayley\_label\_certificate.json}.
+The paper uses these files as machine-readable witnesses, not as substitutes
+for the stated finite definitions and arguments.
+
+The paper will use the census identifier
+\(\operatorname{AT4val}[60,6]\) as the calling card of the carrier.
+Everything that follows must preserve this certified object exactly.  A
+picture may suggest the construction, but it is not permitted to replace
+the incidence law.
