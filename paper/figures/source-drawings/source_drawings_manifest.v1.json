@@ -1,0 +1,73 @@
+{
+  "claim_boundary": {
+    "action_domain_selected": false,
+    "candidate_map_exported": false,
+    "double_rotation_proved": false,
+    "earlier_provisional_radial_reconstruction_authoritative": false,
+    "formal_t1_t2_t3_definition_complete": false,
+    "g60_automorphism_proved": false,
+    "g900_automorphism_proved": false,
+    "phi_metric_required": false,
+    "statement": "The drawings establish source provenance and constrain the construction grammar. They do not by themselves define a permutation or prove adjacency preservation."
+  },
+  "drawings": [
+    {
+      "bytes": 425001,
+      "file": "01-1000020669.jpg",
+      "height": 1536,
+      "sequence": 1,
+      "sha256": "673261e99106452d63e80061a44e6e3bc4452a5d82ba00abaadddc586efe1134",
+      "visual_inventory": "Hand-drawn stage sequence from null through point, segment, open triangular form, closed triangular form, and a final two-face or filled-cell form.",
+      "width": 1152
+    },
+    {
+      "bytes": 474417,
+      "file": "02-1000017570.jpg",
+      "height": 1536,
+      "sequence": 2,
+      "sha256": "602d1a26d6ef37dd5e90b54197de265c63e6bafbb2b22a4237776e6e5313d954",
+      "visual_inventory": "Hand-drawn registered circular and rosette constructions using labels including i, 0, 1, x, y, z, and t.",
+      "width": 1152
+    },
+    {
+      "bytes": 546908,
+      "file": "03-1000017339.jpg",
+      "height": 1536,
+      "sequence": 3,
+      "sha256": "9bfaa6f7d211ee24d79ee78404860212a9fe4f33dfb9c9a27a1653e5a2b4a2fe",
+      "visual_inventory": "Hand-drawn directed A-B-C turn and return construction with written procedural notes concerning motion, distance, turn, proportion, and closure.",
+      "width": 1152
+    },
+    {
+      "bytes": 332935,
+      "file": "04-1000016926.jpg",
+      "height": 1152,
+      "sequence": 4,
+      "sha256": "8777067c22260fb86a16d990b767a106699357ccae9b8a50bec2ff814e2694a1",
+      "visual_inventory": "Hand-drawn nested triangular incidence or development sketch with repeated internal subdivisions and labeled boundary points.",
+      "width": 1536
+    },
+    {
+      "bytes": 357458,
+      "file": "05-1000014165.jpg",
+      "height": 1536,
+      "sequence": 5,
+      "sha256": "e70104e0a268096ce10ebb0d06185b6422f5f35780558902d91c874bc72c1af4",
+      "visual_inventory": "Hand-drawn three-arm spiral centered at i with the surrounding arms labeled x, y, z, and t.",
+      "width": 1152
+    }
+  ],
+  "manifest_id": "registered_spiral_source_drawings_001",
+  "preservation": {
+    "embedded_exif_present": false,
+    "embedded_xmp_present": false,
+    "file_count": 5,
+    "image_recompression_performed": false,
+    "original_jpeg_bytes_preserved": true
+  },
+  "provenance_statement": "The author identifies this drawing sequence, together with the current synthesis, as the true source of the stages denoted t_1, t_2, and t_3.",
+  "repository_path": "paper/figures/source-drawings",
+  "schema": "electron_spins_twice.source_drawings_manifest.v1",
+  "source_class": "author_provided_primary_source_drawings",
+  "title": "Primary hand-drawing sources for the registered spiral synthesis"
+}
