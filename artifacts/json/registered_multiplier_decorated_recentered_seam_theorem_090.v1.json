@@ -1,0 +1,650 @@
+{
+  "artifact_id": "registered_multiplier_decorated_recentered_seam_theorem_090",
+  "audit_pass": true,
+  "boundary": {
+    "drawing09_returned_W_operation_constructed": false,
+    "electron_constructed": false,
+    "finite_spinor_constructed": false,
+    "independent_premultiplier_handed_selector_found": false,
+    "native_handed_multiplier_selected_without_multiplier_input": false,
+    "permanent_authority_statewise_handed_assignment_reconstructed": true,
+    "physics_claim": false,
+    "receipt_I_constructed": false,
+    "registered_multiplier_decorated_seam_theorem_promoted": true,
+    "returned_W_bound_as_ab_square": false,
+    "source_ab_winder_identified_with_order4_map": false
+  },
+  "checks": {
+    "all24_multiplier_preserving_offsets_unique": true,
+    "anchor_multiplier_purity_exact": true,
+    "audit019_state_table_exact": true,
+    "audit028c_two_full60_registers_exact": true,
+    "both_branches_have_order4_mod5": true,
+    "candidate_m15_executed": false,
+    "candidate_m16_executed": false,
+    "candidate_source_read": false,
+    "canonical_offset_equals_audit028e": true,
+    "full300_coordinate_action_reconstructed": true,
+    "full60_multiplier_assignment_reconstructed": true,
+    "induced_anchor_map_equals_audit028d": true,
+    "permanent_sources_all_green": true,
+    "statewise_multiplier_is_always_2_or_3": true,
+    "typed_registration_exchange_preserves_multiplier": true
+  },
+  "construction": {
+    "local_offset_rule": "For each anchor, select the unique offset c in Z5 for which outward position j pairs with inward position -j+c and all five Audit019 multiplier tuples agree.",
+    "recentered_action_rule": "For state T, place T at residue zero in both registered inward cycles and enumerate every mu in Z5. The unique mu satisfying right_position(T,r) = right_zero + mu*r mod 5 for all five residues is mu_T.",
+    "state_join": "Audit019 g60_state equals Audit028C inward_state and outward_state by integer state identity."
+  },
+  "generated_at_utc": "2026-08-05T21:14:57.639318+00:00",
+  "hypotheses": [
+    "Audit019 is accepted as permanent multiplier-decorated authority.",
+    "Audit028C supplies two exact 60-state registered seam systems.",
+    "Audit028D supplies the exact antipodal anchor registration.",
+    "Audit028E supplies the canonical multiplier-preserving offset witness."
+  ],
+  "interpretation": "Permanent multiplier-decorated authority reconstructs the handed turn state by state. This theorem does not explain why a pre-multiplier native geometry chooses one inverse order-four branch rather than the other.",
+  "keeper": "Permanent authority reconstructs the turn state by state; it does not yet explain why that hand was chosen.",
+  "measurements": {
+    "anchor_count": 24,
+    "assignment_rows": [
+      {
+        "left_anchor": 5,
+        "left_zero": 0,
+        "multiplier": 2,
+        "right_anchor": 1,
+        "right_zero": 0,
+        "state": 0
+      },
+      {
+        "left_anchor": 7,
+        "left_zero": 2,
+        "multiplier": 2,
+        "right_anchor": 10,
+        "right_zero": 4,
+        "state": 1
+      },
+      {
+        "left_anchor": 2,
+        "left_zero": 2,
+        "multiplier": 3,
+        "right_anchor": 4,
+        "right_zero": 1,
+        "state": 2
+      },
+      {
+        "left_anchor": 0,
+        "left_zero": 0,
+        "multiplier": 2,
+        "right_anchor": 9,
+        "right_zero": 0,
+        "state": 3
+      },
+      {
+        "left_anchor": 6,
+        "left_zero": 1,
+        "multiplier": 3,
+        "right_anchor": 3,
+        "right_zero": 3,
+        "state": 4
+      },
+      {
+        "left_anchor": 3,
+        "left_zero": 1,
+        "multiplier": 3,
+        "right_anchor": 6,
+        "right_zero": 3,
+        "state": 5
+      },
+      {
+        "left_anchor": 1,
+        "left_zero": 0,
+        "multiplier": 3,
+        "right_anchor": 5,
+        "right_zero": 0,
+        "state": 6
+      },
+      {
+        "left_anchor": 10,
+        "left_zero": 4,
+        "multiplier": 2,
+        "right_anchor": 7,
+        "right_zero": 3,
+        "state": 7
+      },
+      {
+        "left_anchor": 4,
+        "left_zero": 0,
+        "multiplier": 2,
+        "right_anchor": 2,
+        "right_zero": 0,
+        "state": 8
+      },
+      {
+        "left_anchor": 9,
+        "left_zero": 1,
+        "multiplier": 2,
+        "right_anchor": 0,
+        "right_zero": 2,
+        "state": 9
+      },
+      {
+        "left_anchor": 4,
+        "left_zero": 1,
+        "multiplier": 2,
+        "right_anchor": 2,
+        "right_zero": 2,
+        "state": 10
+      },
+      {
+        "left_anchor": 8,
+        "left_zero": 4,
+        "multiplier": 2,
+        "right_anchor": 11,
+        "right_zero": 3,
+        "state": 11
+      },
+      {
+        "left_anchor": 3,
+        "left_zero": 0,
+        "multiplier": 3,
+        "right_anchor": 6,
+        "right_zero": 0,
+        "state": 12
+      },
+      {
+        "left_anchor": 7,
+        "left_zero": 0,
+        "multiplier": 2,
+        "right_anchor": 10,
+        "right_zero": 0,
+        "state": 13
+      },
+      {
+        "left_anchor": 5,
+        "left_zero": 2,
+        "multiplier": 2,
+        "right_anchor": 1,
+        "right_zero": 4,
+        "state": 14
+      },
+      {
+        "left_anchor": 2,
+        "left_zero": 1,
+        "multiplier": 3,
+        "right_anchor": 4,
+        "right_zero": 3,
+        "state": 15
+      },
+      {
+        "left_anchor": 11,
+        "left_zero": 0,
+        "multiplier": 2,
+        "right_anchor": 8,
+        "right_zero": 0,
+        "state": 16
+      },
+      {
+        "left_anchor": 5,
+        "left_zero": 1,
+        "multiplier": 2,
+        "right_anchor": 1,
+        "right_zero": 2,
+        "state": 17
+      },
+      {
+        "left_anchor": 9,
+        "left_zero": 3,
+        "multiplier": 2,
+        "right_anchor": 0,
+        "right_zero": 1,
+        "state": 18
+      },
+      {
+        "left_anchor": 3,
+        "left_zero": 4,
+        "multiplier": 3,
+        "right_anchor": 6,
+        "right_zero": 2,
+        "state": 19
+      },
+      {
+        "left_anchor": 9,
+        "left_zero": 2,
+        "multiplier": 2,
+        "right_anchor": 0,
+        "right_zero": 4,
+        "state": 20
+      },
+      {
+        "left_anchor": 8,
+        "left_zero": 3,
+        "multiplier": 2,
+        "right_anchor": 11,
+        "right_zero": 1,
+        "state": 21
+      },
+      {
+        "left_anchor": 1,
+        "left_zero": 4,
+        "multiplier": 3,
+        "right_anchor": 5,
+        "right_zero": 2,
+        "state": 22
+      },
+      {
+        "left_anchor": 2,
+        "left_zero": 0,
+        "multiplier": 3,
+        "right_anchor": 4,
+        "right_zero": 0,
+        "state": 23
+      },
+      {
+        "left_anchor": 7,
+        "left_zero": 4,
+        "multiplier": 2,
+        "right_anchor": 10,
+        "right_zero": 3,
+        "state": 24
+      },
+      {
+        "left_anchor": 0,
+        "left_zero": 4,
+        "multiplier": 2,
+        "right_anchor": 9,
+        "right_zero": 3,
+        "state": 25
+      },
+      {
+        "left_anchor": 11,
+        "left_zero": 4,
+        "multiplier": 2,
+        "right_anchor": 8,
+        "right_zero": 3,
+        "state": 26
+      },
+      {
+        "left_anchor": 7,
+        "left_zero": 3,
+        "multiplier": 2,
+        "right_anchor": 10,
+        "right_zero": 1,
+        "state": 27
+      },
+      {
+        "left_anchor": 3,
+        "left_zero": 3,
+        "multiplier": 3,
+        "right_anchor": 6,
+        "right_zero": 4,
+        "state": 28
+      },
+      {
+        "left_anchor": 1,
+        "left_zero": 3,
+        "multiplier": 3,
+        "right_anchor": 5,
+        "right_zero": 4,
+        "state": 29
+      },
+      {
+        "left_anchor": 3,
+        "left_zero": 2,
+        "multiplier": 3,
+        "right_anchor": 6,
+        "right_zero": 1,
+        "state": 30
+      },
+      {
+        "left_anchor": 8,
+        "left_zero": 2,
+        "multiplier": 2,
+        "right_anchor": 11,
+        "right_zero": 4,
+        "state": 31
+      },
+      {
+        "left_anchor": 10,
+        "left_zero": 3,
+        "multiplier": 2,
+        "right_anchor": 7,
+        "right_zero": 1,
+        "state": 32
+      },
+      {
+        "left_anchor": 0,
+        "left_zero": 3,
+        "multiplier": 2,
+        "right_anchor": 9,
+        "right_zero": 1,
+        "state": 33
+      },
+      {
+        "left_anchor": 2,
+        "left_zero": 4,
+        "multiplier": 3,
+        "right_anchor": 4,
+        "right_zero": 2,
+        "state": 34
+      },
+      {
+        "left_anchor": 6,
+        "left_zero": 2,
+        "multiplier": 3,
+        "right_anchor": 3,
+        "right_zero": 1,
+        "state": 35
+      },
+      {
+        "left_anchor": 11,
+        "left_zero": 3,
+        "multiplier": 2,
+        "right_anchor": 8,
+        "right_zero": 1,
+        "state": 36
+      },
+      {
+        "left_anchor": 2,
+        "left_zero": 3,
+        "multiplier": 3,
+        "right_anchor": 4,
+        "right_zero": 4,
+        "state": 37
+      },
+      {
+        "left_anchor": 1,
+        "left_zero": 2,
+        "multiplier": 3,
+        "right_anchor": 5,
+        "right_zero": 1,
+        "state": 38
+      },
+      {
+        "left_anchor": 10,
+        "left_zero": 2,
+        "multiplier": 2,
+        "right_anchor": 7,
+        "right_zero": 4,
+        "state": 39
+      },
+      {
+        "left_anchor": 1,
+        "left_zero": 1,
+        "multiplier": 3,
+        "right_anchor": 5,
+        "right_zero": 3,
+        "state": 40
+      },
+      {
+        "left_anchor": 8,
+        "left_zero": 1,
+        "multiplier": 2,
+        "right_anchor": 11,
+        "right_zero": 2,
+        "state": 41
+      },
+      {
+        "left_anchor": 4,
+        "left_zero": 4,
+        "multiplier": 2,
+        "right_anchor": 2,
+        "right_zero": 3,
+        "state": 42
+      },
+      {
+        "left_anchor": 6,
+        "left_zero": 3,
+        "multiplier": 3,
+        "right_anchor": 3,
+        "right_zero": 4,
+        "state": 43
+      },
+      {
+        "left_anchor": 0,
+        "left_zero": 2,
+        "multiplier": 2,
+        "right_anchor": 9,
+        "right_zero": 4,
+        "state": 44
+      },
+      {
+        "left_anchor": 5,
+        "left_zero": 4,
+        "multiplier": 2,
+        "right_anchor": 1,
+        "right_zero": 3,
+        "state": 45
+      },
+      {
+        "left_anchor": 11,
+        "left_zero": 2,
+        "multiplier": 2,
+        "right_anchor": 8,
+        "right_zero": 4,
+        "state": 46
+      },
+      {
+        "left_anchor": 0,
+        "left_zero": 1,
+        "multiplier": 2,
+        "right_anchor": 9,
+        "right_zero": 2,
+        "state": 47
+      },
+      {
+        "left_anchor": 10,
+        "left_zero": 1,
+        "multiplier": 2,
+        "right_anchor": 7,
+        "right_zero": 2,
+        "state": 48
+      },
+      {
+        "left_anchor": 4,
+        "left_zero": 3,
+        "multiplier": 2,
+        "right_anchor": 2,
+        "right_zero": 1,
+        "state": 49
+      },
+      {
+        "left_anchor": 10,
+        "left_zero": 0,
+        "multiplier": 2,
+        "right_anchor": 7,
+        "right_zero": 0,
+        "state": 50
+      },
+      {
+        "left_anchor": 8,
+        "left_zero": 0,
+        "multiplier": 2,
+        "right_anchor": 11,
+        "right_zero": 0,
+        "state": 51
+      },
+      {
+        "left_anchor": 9,
+        "left_zero": 0,
+        "multiplier": 2,
+        "right_anchor": 0,
+        "right_zero": 0,
+        "state": 52
+      },
+      {
+        "left_anchor": 5,
+        "left_zero": 3,
+        "multiplier": 2,
+        "right_anchor": 1,
+        "right_zero": 1,
+        "state": 53
+      },
+      {
+        "left_anchor": 6,
+        "left_zero": 4,
+        "multiplier": 3,
+        "right_anchor": 3,
+        "right_zero": 2,
+        "state": 54
+      },
+      {
+        "left_anchor": 7,
+        "left_zero": 1,
+        "multiplier": 2,
+        "right_anchor": 10,
+        "right_zero": 2,
+        "state": 55
+      },
+      {
+        "left_anchor": 11,
+        "left_zero": 1,
+        "multiplier": 2,
+        "right_anchor": 8,
+        "right_zero": 2,
+        "state": 56
+      },
+      {
+        "left_anchor": 6,
+        "left_zero": 0,
+        "multiplier": 3,
+        "right_anchor": 3,
+        "right_zero": 0,
+        "state": 57
+      },
+      {
+        "left_anchor": 4,
+        "left_zero": 2,
+        "multiplier": 2,
+        "right_anchor": 2,
+        "right_zero": 4,
+        "state": 58
+      },
+      {
+        "left_anchor": 9,
+        "left_zero": 4,
+        "multiplier": 2,
+        "right_anchor": 0,
+        "right_zero": 3,
+        "state": 59
+      }
+    ],
+    "audit019_state_record_count": 60,
+    "coordinate_action_count": 300,
+    "derived_anchor_map": {
+      "0": 9,
+      "1": 5,
+      "10": 7,
+      "11": 8,
+      "2": 4,
+      "3": 6,
+      "4": 2,
+      "5": 1,
+      "6": 3,
+      "7": 10,
+      "8": 11,
+      "9": 0
+    },
+    "left_anchor_multiplier_map": {
+      "0": 2,
+      "1": 3,
+      "10": 2,
+      "11": 2,
+      "2": 3,
+      "3": 3,
+      "4": 2,
+      "5": 2,
+      "6": 3,
+      "7": 2,
+      "8": 2,
+      "9": 2
+    },
+    "multiplier_profile": {
+      "2": 40,
+      "3": 20
+    },
+    "register_row_count": 120,
+    "registration_count": 2,
+    "right_anchor_multiplier_map": {
+      "0": 2,
+      "1": 2,
+      "10": 2,
+      "11": 2,
+      "2": 2,
+      "3": 3,
+      "4": 3,
+      "5": 3,
+      "6": 3,
+      "7": 2,
+      "8": 2,
+      "9": 2
+    },
+    "selected_offset_profile": {
+      "0": 8,
+      "1": 6,
+      "2": 3,
+      "3": 5,
+      "4": 2
+    },
+    "statewise_multiplier_count": 60
+  },
+  "receipts": {
+    "full300_action_sha256": "dd9a9242d5585b729949c89162e8ca72c1f7e6c8e10eb096604ab080d0c01211",
+    "full60_assignment_sha256": "3c0f1f5dd920c64a2047665641d2fa2ffd393f3f902581876d8d20fd241e6205",
+    "permanent_reproducer_sha256": "c447c80add2c0d8941fd1dbe6a3f725f83a744f37b9d124c2fa812aa17a95740",
+    "promotion_source_report_sha256": "d056685bb269971ae03ae6399406b2b77b952c5bdebf82d0d89806cda5a8c5a6"
+  },
+  "reproduction": {
+    "command": "python scripts/audits/audit_registered_multiplier_decorated_recentered_seam_theorem_090.py",
+    "script": "scripts/audits/audit_registered_multiplier_decorated_recentered_seam_theorem_090.py",
+    "temporary_report": "/data/data/com.termux/files/home/tmp/electron_spins_twice_registered_multiplier_decorated_recentered_seam_theorem_090_out.txt"
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "audit_pass": true,
+      "filename": "a5_v4_k22_four_slot_alignment_audit_019.json",
+      "hash_match": true,
+      "label": "audit019",
+      "match_count": 1,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/a5_v4_k22_four_slot_alignment_audit_019.json",
+      "sha256": "e8bbfe48053bdc1a80407ce7a26bf02b12f83bfcf695fed0073a9a8581ae896a",
+      "verdict": "all_fifteen_a5_petersen_edges_align_exactly_with_native_v4_fibers_k22_dodecahedral_residues_and_two_order4_pentagram_twist_carriers_after_derived_label_reconciliation"
+    },
+    {
+      "audit_pass": true,
+      "filename": "nested_dodecahedral_registration_audit_028c.json",
+      "hash_match": true,
+      "label": "audit028c",
+      "match_count": 1,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/nested_dodecahedral_registration_audit_028c.json",
+      "sha256": "83cae85f200ff774ab45875cfddd265be1be59c9bde8a4bc7c5737c5a3855f6f",
+      "verdict": "the_twentyfour_signed_blocks_are_the_canonical_bipartite_double_cover_of_the_icosahedral_face_adjacency_graph_and_therefore_define_two_registered_dodecahedral_shells_with_exactly_two_face_registrations_and_twelve_disjoint_anchor_pairs_per_registration_each_carrying_five_paired_directed_seam_states"
+    },
+    {
+      "audit_pass": true,
+      "filename": "registration_antipode_d5_orientation_audit_028d.json",
+      "hash_match": true,
+      "label": "audit028d",
+      "match_count": 1,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/registration_antipode_d5_orientation_audit_028d.json",
+      "sha256": "869bb29956426d8c8e2aaaf6f9b49e7b934d4a340ee043629fccf5a044f59c39",
+      "verdict": "the_two_exact_shell_registrations_differ_by_the_unique_fixed_point_free_icosahedral_antipode_and_in_the_fixed_canonical_orientation_the_relative_local_D5_rule_is_uniformly_j_maps_to_minus_j_plus_4_mod_5_so_the_intrinsic_orientation_class_is_reflected_with_five_rotational_offsets_remaining"
+    },
+    {
+      "audit_pass": true,
+      "filename": "canonical_seam_carrier_offset_audit_028e.json",
+      "hash_match": true,
+      "label": "audit028e",
+      "match_count": 1,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/canonical_seam_carrier_offset_audit_028e.json",
+      "sha256": "19a5818b817f241bcb285b6ddfefedd7d9dde818a4538b44d93543f81f47b49b",
+      "verdict": "among_the_five_reflected_D5_offsets_at_the_canonical_nested_dodecahedral_anchor_exact_Audit019_pentagram_multiplier_preservation_selects_the_unique_rule_j_maps_to_minus_j_plus_1_mod_5"
+    }
+  ],
+  "status": "theorem_promoted_with_selector_boundary",
+  "theorem": {
+    "name": "Registered multiplier-decorated recentered seam theorem",
+    "statement": "Given the permanent Audit019 multiplier-decorated G60 state table and the two Audit028C registered five-seam systems, exact multiplier preservation selects one unique reflected offset at each of the 24 anchors. Recentring the cross-registration position map at each of the 60 G60 states produces a unique affine action r -> mu_T*r mod 5, where mu_T is 2 or 3. Exactly 40 states carry multiplier 2 and 20 carry multiplier 3. All 300 state-residue actions agree exactly, and typed registration exchange preserves the multiplier."
+  }
+}
