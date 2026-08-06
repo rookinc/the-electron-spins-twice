@@ -1,0 +1,545 @@
+{
+  "algebra": {
+    "central_extension": {
+      "kappa_squared": "1",
+      "kappa_visible_projection": "1",
+      "kernel_exponents": [
+        0,
+        4
+      ],
+      "nontrivial_kernel_element": "kappa = h^4",
+      "sequence": "0 -> C2 -> C8 -> C4 -> 0"
+    },
+    "control_modes": [
+      "idle",
+      "drive",
+      "limit",
+      "g900_return",
+      "half_turn",
+      "emit",
+      "g15_rebound",
+      "receipt"
+    ],
+    "declared_product_state_bound": 192,
+    "lifted_carrier_group": {
+      "generator": "h",
+      "group": "C8",
+      "projection": "pi(h^k) = r^(k mod 4)",
+      "relation": "h^8 = 1"
+    },
+    "signed_action_latch": {
+      "reason_required": "C8 identifies positive and negative full turns at h^4",
+      "reversal": "s maps to -s",
+      "values": [
+        0,
+        1,
+        -1
+      ]
+    },
+    "state_product": "C8 x {0,+1,-1} x M",
+    "visible_orientation_group": {
+      "generator": "r",
+      "group": "C4",
+      "quarter_turn_degrees": 90,
+      "relation": "r^4 = 1"
+    }
+  },
+  "artifact201_supersession": {
+    "corrected_claims": [
+      "G15 rebounds from half-turn to a full-turn receipt",
+      "final orientation equals initial only after projection to C4",
+      "final lifted state is kappa rather than identity",
+      "the completed ledger closes visibly modulo one full turn while retaining winding receipt"
+    ],
+    "historical_artifact_mutated": false,
+    "historical_audit_invalidated": false,
+    "retained_claims": [
+      "signed loading to the first full-turn limit",
+      "G900 outer return from the full-turn limit",
+      "boundedness",
+      "reversal covariance",
+      "conditional offsets 1 and 2",
+      "signed receipt persistence",
+      "all false physical-claim boundaries"
+    ],
+    "status": "partially_superseded_by_apparatus_contract_204",
+    "superseded_claims": [
+      "G15 transition from half-turn to integer zero",
+      "response path ending at lifted zero",
+      "integer-zero finite ledger interpretation"
+    ]
+  },
+  "artifact_id": "finite_covariant_receipt_apparatus_contract_204",
+  "audit_pass": true,
+  "boundary": {
+    "algebra_and_transducer_exact_within_contract": true,
+    "emission_physical_interpretation_not_derived": true,
+    "g15_physical_action_not_derived": true,
+    "g900_physical_action_not_derived": true,
+    "no_archive_recovery_claim": true,
+    "no_physics_theorem": true,
+    "operator_names_are_role_labels": true
+  },
+  "checks": {
+    "artifact201_partial_supersession_recorded": true,
+    "defined_transition_count_21": true,
+    "electron_claim": false,
+    "exact_c2_c8_c4_extension": true,
+    "full_turn_kernel_nontrivial": true,
+    "gravity_claim": false,
+    "lifted_receipt_nontrivial": true,
+    "native_physical_realization_derived": false,
+    "physics_claim": false,
+    "plus_minus_receipts_distinct": true,
+    "quarter_turn_generator_order8": true,
+    "radiation_claim": false,
+    "reachable_state_count_19": true,
+    "reachable_transducer_minimal": true,
+    "response_360_180_360_exact": true,
+    "reversal_covariance_exact": true,
+    "signed_action_latch_required": true,
+    "typed_control_modes_required": true,
+    "visible_orientation_order4": true,
+    "visible_return_exact": true
+  },
+  "covariance": {
+    "event_involution": "drive_plus exchanges with drive_minus; other event types remain",
+    "involution_exact": true,
+    "state_involution": "(k,s,m) maps to (-k mod 8,-s,m)",
+    "transition_covariance_exact": true
+  },
+  "defining_property": {
+    "final_lifted_kernel_label": "kappa",
+    "final_visible_phase": 0,
+    "initial_lifted_kernel_label": "identity",
+    "initial_visible_phase": 0,
+    "lifted_history_nontrivial": true,
+    "minus_final_state": "4:-1:receipt",
+    "plus_final_state": "4:+1:receipt",
+    "signed_receipts_distinct": true,
+    "visible_return_exact": true
+  },
+  "keeper": "The visible carrier returns. The lifted sheet, action sign, and completion mode remember why.",
+  "next_gate": "Define the abstract admissible action interface independently of the G60, G900, and G15 role labels, then show how those labels form one representation of the general apparatus.",
+  "operators": {
+    "drive_minus": "advance one negative C8 quarter-turn",
+    "drive_plus": "advance one positive C8 quarter-turn",
+    "emit_180": "change half-turn control mode from arrival to emission",
+    "g15_step": "move one quarter-turn from half-turn toward full-turn receipt",
+    "g900_step": "move one quarter-turn from full-turn limit toward half-turn",
+    "orthogonal_passage": "hold the lifted carrier and transmit no signed winding",
+    "read_receipt": "preserve and expose the completed signed receipt"
+  },
+  "reachable_transducer": {
+    "already_minimal": true,
+    "defined_transition_count": 21,
+    "minimized_reachable_class_count": 19,
+    "reachable_state_count": 19,
+    "states": [
+      {
+        "action_sign": 0,
+        "c8_exponent": 0,
+        "id": "0:+0:idle",
+        "kernel_label_when_visible_identity": "identity",
+        "mode": "idle",
+        "receipt": null,
+        "visible_c4_phase": 0
+      },
+      {
+        "action_sign": 1,
+        "c8_exponent": 1,
+        "id": "1:+1:drive",
+        "kernel_label_when_visible_identity": null,
+        "mode": "drive",
+        "receipt": null,
+        "visible_c4_phase": 1
+      },
+      {
+        "action_sign": 1,
+        "c8_exponent": 2,
+        "id": "2:+1:drive",
+        "kernel_label_when_visible_identity": null,
+        "mode": "drive",
+        "receipt": null,
+        "visible_c4_phase": 2
+      },
+      {
+        "action_sign": 1,
+        "c8_exponent": 2,
+        "id": "2:+1:emit",
+        "kernel_label_when_visible_identity": null,
+        "mode": "emit",
+        "receipt": null,
+        "visible_c4_phase": 2
+      },
+      {
+        "action_sign": 1,
+        "c8_exponent": 2,
+        "id": "2:+1:half_turn",
+        "kernel_label_when_visible_identity": null,
+        "mode": "half_turn",
+        "receipt": null,
+        "visible_c4_phase": 2
+      },
+      {
+        "action_sign": 1,
+        "c8_exponent": 3,
+        "id": "3:+1:drive",
+        "kernel_label_when_visible_identity": null,
+        "mode": "drive",
+        "receipt": null,
+        "visible_c4_phase": 3
+      },
+      {
+        "action_sign": 1,
+        "c8_exponent": 3,
+        "id": "3:+1:g15_rebound",
+        "kernel_label_when_visible_identity": null,
+        "mode": "g15_rebound",
+        "receipt": null,
+        "visible_c4_phase": 3
+      },
+      {
+        "action_sign": 1,
+        "c8_exponent": 3,
+        "id": "3:+1:g900_return",
+        "kernel_label_when_visible_identity": null,
+        "mode": "g900_return",
+        "receipt": null,
+        "visible_c4_phase": 3
+      },
+      {
+        "action_sign": 1,
+        "c8_exponent": 4,
+        "id": "4:+1:limit",
+        "kernel_label_when_visible_identity": "kappa",
+        "mode": "limit",
+        "receipt": null,
+        "visible_c4_phase": 0
+      },
+      {
+        "action_sign": 1,
+        "c8_exponent": 4,
+        "id": "4:+1:receipt",
+        "kernel_label_when_visible_identity": "kappa",
+        "mode": "receipt",
+        "receipt": "plus",
+        "visible_c4_phase": 0
+      },
+      {
+        "action_sign": -1,
+        "c8_exponent": 4,
+        "id": "4:-1:limit",
+        "kernel_label_when_visible_identity": "kappa",
+        "mode": "limit",
+        "receipt": null,
+        "visible_c4_phase": 0
+      },
+      {
+        "action_sign": -1,
+        "c8_exponent": 4,
+        "id": "4:-1:receipt",
+        "kernel_label_when_visible_identity": "kappa",
+        "mode": "receipt",
+        "receipt": "minus",
+        "visible_c4_phase": 0
+      },
+      {
+        "action_sign": -1,
+        "c8_exponent": 5,
+        "id": "5:-1:drive",
+        "kernel_label_when_visible_identity": null,
+        "mode": "drive",
+        "receipt": null,
+        "visible_c4_phase": 1
+      },
+      {
+        "action_sign": -1,
+        "c8_exponent": 5,
+        "id": "5:-1:g15_rebound",
+        "kernel_label_when_visible_identity": null,
+        "mode": "g15_rebound",
+        "receipt": null,
+        "visible_c4_phase": 1
+      },
+      {
+        "action_sign": -1,
+        "c8_exponent": 5,
+        "id": "5:-1:g900_return",
+        "kernel_label_when_visible_identity": null,
+        "mode": "g900_return",
+        "receipt": null,
+        "visible_c4_phase": 1
+      },
+      {
+        "action_sign": -1,
+        "c8_exponent": 6,
+        "id": "6:-1:drive",
+        "kernel_label_when_visible_identity": null,
+        "mode": "drive",
+        "receipt": null,
+        "visible_c4_phase": 2
+      },
+      {
+        "action_sign": -1,
+        "c8_exponent": 6,
+        "id": "6:-1:emit",
+        "kernel_label_when_visible_identity": null,
+        "mode": "emit",
+        "receipt": null,
+        "visible_c4_phase": 2
+      },
+      {
+        "action_sign": -1,
+        "c8_exponent": 6,
+        "id": "6:-1:half_turn",
+        "kernel_label_when_visible_identity": null,
+        "mode": "half_turn",
+        "receipt": null,
+        "visible_c4_phase": 2
+      },
+      {
+        "action_sign": -1,
+        "c8_exponent": 7,
+        "id": "7:-1:drive",
+        "kernel_label_when_visible_identity": null,
+        "mode": "drive",
+        "receipt": null,
+        "visible_c4_phase": 3
+      }
+    ],
+    "transitions": [
+      {
+        "event": "drive_minus",
+        "source": "0:+0:idle",
+        "target": "7:-1:drive"
+      },
+      {
+        "event": "drive_plus",
+        "source": "0:+0:idle",
+        "target": "1:+1:drive"
+      },
+      {
+        "event": "orthogonal_passage",
+        "source": "0:+0:idle",
+        "target": "0:+0:idle"
+      },
+      {
+        "event": "drive_plus",
+        "source": "1:+1:drive",
+        "target": "2:+1:drive"
+      },
+      {
+        "event": "drive_plus",
+        "source": "2:+1:drive",
+        "target": "3:+1:drive"
+      },
+      {
+        "event": "g15_step",
+        "source": "2:+1:emit",
+        "target": "3:+1:g15_rebound"
+      },
+      {
+        "event": "emit_180",
+        "source": "2:+1:half_turn",
+        "target": "2:+1:emit"
+      },
+      {
+        "event": "drive_plus",
+        "source": "3:+1:drive",
+        "target": "4:+1:limit"
+      },
+      {
+        "event": "g15_step",
+        "source": "3:+1:g15_rebound",
+        "target": "4:+1:receipt"
+      },
+      {
+        "event": "g900_step",
+        "source": "3:+1:g900_return",
+        "target": "2:+1:half_turn"
+      },
+      {
+        "event": "g900_step",
+        "source": "4:+1:limit",
+        "target": "3:+1:g900_return"
+      },
+      {
+        "event": "read_receipt",
+        "source": "4:+1:receipt",
+        "target": "4:+1:receipt"
+      },
+      {
+        "event": "g900_step",
+        "source": "4:-1:limit",
+        "target": "5:-1:g900_return"
+      },
+      {
+        "event": "read_receipt",
+        "source": "4:-1:receipt",
+        "target": "4:-1:receipt"
+      },
+      {
+        "event": "drive_minus",
+        "source": "5:-1:drive",
+        "target": "4:-1:limit"
+      },
+      {
+        "event": "g15_step",
+        "source": "5:-1:g15_rebound",
+        "target": "4:-1:receipt"
+      },
+      {
+        "event": "g900_step",
+        "source": "5:-1:g900_return",
+        "target": "6:-1:half_turn"
+      },
+      {
+        "event": "drive_minus",
+        "source": "6:-1:drive",
+        "target": "5:-1:drive"
+      },
+      {
+        "event": "g15_step",
+        "source": "6:-1:emit",
+        "target": "5:-1:g15_rebound"
+      },
+      {
+        "event": "emit_180",
+        "source": "6:-1:half_turn",
+        "target": "6:-1:emit"
+      },
+      {
+        "event": "drive_minus",
+        "source": "7:-1:drive",
+        "target": "6:-1:drive"
+      }
+    ]
+  },
+  "response_cycles": {
+    "minus": {
+      "events": [
+        "drive_minus",
+        "drive_minus",
+        "drive_minus",
+        "drive_minus",
+        "g900_step",
+        "g900_step",
+        "emit_180",
+        "g15_step",
+        "g15_step"
+      ],
+      "final_receipt": [
+        "kappa",
+        -1,
+        "receipt"
+      ],
+      "signed_quarter_path": [
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -3,
+        -2,
+        -2,
+        -3,
+        -4
+      ],
+      "state_path": [
+        "0:+0:idle",
+        "7:-1:drive",
+        "6:-1:drive",
+        "5:-1:drive",
+        "4:-1:limit",
+        "5:-1:g900_return",
+        "6:-1:half_turn",
+        "6:-1:emit",
+        "5:-1:g15_rebound",
+        "4:-1:receipt"
+      ],
+      "visible_c4_path": [
+        0,
+        3,
+        2,
+        1,
+        0,
+        1,
+        2,
+        2,
+        1,
+        0
+      ]
+    },
+    "plus": {
+      "events": [
+        "drive_plus",
+        "drive_plus",
+        "drive_plus",
+        "drive_plus",
+        "g900_step",
+        "g900_step",
+        "emit_180",
+        "g15_step",
+        "g15_step"
+      ],
+      "final_receipt": [
+        "kappa",
+        1,
+        "receipt"
+      ],
+      "signed_quarter_path": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        2,
+        3,
+        4
+      ],
+      "state_path": [
+        "0:+0:idle",
+        "1:+1:drive",
+        "2:+1:drive",
+        "3:+1:drive",
+        "4:+1:limit",
+        "3:+1:g900_return",
+        "2:+1:half_turn",
+        "2:+1:emit",
+        "3:+1:g15_rebound",
+        "4:+1:receipt"
+      ],
+      "visible_c4_path": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        3,
+        2,
+        2,
+        3,
+        0
+      ]
+    }
+  },
+  "schema": "finite_covariant_receipt.apparatus_contract.v1",
+  "scope": {
+    "electron_specific_definition": false,
+    "general_action_response_apparatus": true,
+    "gravity_specific_definition": false,
+    "physical_realization_claimed": false,
+    "radiation_specific_definition": false
+  },
+  "source_lock": {
+    "artifact_id": "g60_factorized_torsional_action_candidate_theorem_201",
+    "path": "artifacts/json/g60_factorized_torsional_action_candidate_theorem_201.v1.json",
+    "sha256": "5a9bf353ddf95c380f6c6e8186a06b00d593306b47c5f6b255c3732a44cf1412",
+    "verdict": "bounded_factorized_torsional_operator_and_signed_action_ledger_form_an_exact_candidate_dynamics_theorem"
+  },
+  "status": "author_supplied_general_apparatus_contract",
+  "verdict": "minimal_finite_C8_over_C4_covariant_receipt_apparatus_seeded"
+}
