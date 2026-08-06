@@ -1,0 +1,116 @@
+{
+  "artifact_id": "native_multiplier_explicit_source_obstruction_138",
+  "audit_pass": true,
+  "boundary": {
+    "deeper_independent_source_rule_remains_open": true,
+    "explicit_theorem090_source_chain_only": true,
+    "global_nonexistence_of_native_selector_proved": false,
+    "native_selection_principle_closed": false,
+    "physical_interpretation_claimed": false,
+    "registered_assignment_reconstruction_changed": false
+  },
+  "checks": {
+    "all_six_sources_exist_and_pass": true,
+    "audit019_does_not_derive_named_face_bit_assignment": true,
+    "audit019_has_four_local_face_bit_gauges_per_edge": true,
+    "audit028c_supplies_two_registered_full60_systems": true,
+    "audit028d_derives_reflected_orientation_class": true,
+    "audit028d_does_not_select_native_rotation": true,
+    "audit028d_leaves_five_rotational_offsets": true,
+    "audit028e_does_not_prove_all_anchor_transport": true,
+    "audit028e_selection_is_multiplier_preserving": true,
+    "audit028e_selects_offset_one": true,
+    "closure130_hash_verified": true,
+    "theorem090_local_rule_consults_multiplier_agreement": true,
+    "theorem090_reconstructs_registered_handed_assignment": true,
+    "theorem090_withholds_independent_premultiplier_selector": true,
+    "theorem090_withholds_native_handed_selection": true
+  },
+  "generated_at_utc": "2026-08-06T03:24:52.481574+00:00",
+  "interpretation": {
+    "earned": "The explicit permanent source chain explains how the registered multiplier assignment is reconstructed and locates the precise selection frontier at the five reflected D5 offsets.",
+    "obstruction": "The unique saved offset is selected only after consulting the multiplier-decorated authority whose handed origin is under investigation."
+  },
+  "keeper": "The reflected class protects itself. The chosen rotation still depends on the registered multiplier answer.",
+  "next_gate": "Search only for an independently sourced premultiplier structure acting on the five reflected offsets. If none is found, retain the fivefold rotational choice as irreducible registration.",
+  "schema_version": "1.0",
+  "source_chain": [
+    {
+      "earned": "Exact G60-to-two-carrier alignment and multiplier-decorated authority.",
+      "open": "The intrinsic bit value to named face assignment is not derived; four local face-bit gauges remain per edge.",
+      "stage": "audit019"
+    },
+    {
+      "earned": "Two exact registered 60-state seam systems with twelve anchor options per registration.",
+      "open": "The registered systems and anchors form the candidate surface; they do not choose a native handed assignment.",
+      "stage": "audit028c"
+    },
+    {
+      "earned": "The registration relation is antipodal and its intrinsic relative D5 orientation class is reflected.",
+      "open": "Five rotational offsets remain and no native rotational offset is selected.",
+      "stage": "audit028d"
+    },
+    {
+      "earned": "At the canonical anchor, Audit019 multiplier preservation selects the unique reflected offset 1.",
+      "open": "The selector consults multiplier-decorated authority and all-anchor transport is not proved in Audit028e.",
+      "stage": "audit028e"
+    },
+    {
+      "earned": "The registered source packet reconstructs all sixty handed multiplier values exactly.",
+      "open": "No independent premultiplier or native handed selector is constructed.",
+      "stage": "theorem090"
+    }
+  ],
+  "sources": {
+    "audit019": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/a5_v4_k22_four_slot_alignment_audit_019.json",
+      "sha256": "e8bbfe48053bdc1a80407ce7a26bf02b12f83bfcf695fed0073a9a8581ae896a",
+      "theorem090_hash_match": true,
+      "verdict": "all_fifteen_a5_petersen_edges_align_exactly_with_native_v4_fibers_k22_dodecahedral_residues_and_two_order4_pentagram_twist_carriers_after_derived_label_reconciliation"
+    },
+    "audit028c": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/nested_dodecahedral_registration_audit_028c.json",
+      "sha256": "83cae85f200ff774ab45875cfddd265be1be59c9bde8a4bc7c5737c5a3855f6f",
+      "theorem090_hash_match": true,
+      "verdict": "the_twentyfour_signed_blocks_are_the_canonical_bipartite_double_cover_of_the_icosahedral_face_adjacency_graph_and_therefore_define_two_registered_dodecahedral_shells_with_exactly_two_face_registrations_and_twelve_disjoint_anchor_pairs_per_registration_each_carrying_five_paired_directed_seam_states"
+    },
+    "audit028d": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/registration_antipode_d5_orientation_audit_028d.json",
+      "sha256": "869bb29956426d8c8e2aaaf6f9b49e7b934d4a340ee043629fccf5a044f59c39",
+      "theorem090_hash_match": true,
+      "verdict": "the_two_exact_shell_registrations_differ_by_the_unique_fixed_point_free_icosahedral_antipode_and_in_the_fixed_canonical_orientation_the_relative_local_D5_rule_is_uniformly_j_maps_to_minus_j_plus_4_mod_5_so_the_intrinsic_orientation_class_is_reflected_with_five_rotational_offsets_remaining"
+    },
+    "audit028e": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/canonical_seam_carrier_offset_audit_028e.json",
+      "sha256": "19a5818b817f241bcb285b6ddfefedd7d9dde818a4538b44d93543f81f47b49b",
+      "theorem090_hash_match": true,
+      "verdict": "among_the_five_reflected_D5_offsets_at_the_canonical_nested_dodecahedral_anchor_exact_Audit019_pentagram_multiplier_preservation_selects_the_unique_rule_j_maps_to_minus_j_plus_1_mod_5"
+    },
+    "closure130": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/artifacts/json/registered_multiplier_reconstruction_phase_closure_checkpoint_130.v1.json",
+      "sha256": "08050955be1b727d43858ff07c965ea89ce337fa22e576afbf4bf0cdb7ca2b31"
+    },
+    "theorem090": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/artifacts/json/registered_multiplier_decorated_recentered_seam_theorem_090.v1.json",
+      "sha256": "1be9552ac44483f04953c624215f7aa198701fb18ddf37b611230a68f38cadaf"
+    }
+  },
+  "symmetry_breaking_frontier": {
+    "independent_premultiplier_selector_found": false,
+    "native_or_source_derived": {
+      "registration_relation": "icosahedral_antipode",
+      "relative_D5_orientation_class": "reflected"
+    },
+    "native_orbit_member_selected": false,
+    "registered_selected_offset": 1,
+    "remaining_candidate_count": 5,
+    "selection_input": "Audit019 pentagram multiplier tuple agreement"
+  },
+  "verdict": "theorem090_explicit_source_chain_contains_no_independent_premultiplier_handed_selector"
+}
