@@ -1,0 +1,120 @@
+{
+  "artifact_id": "native_orientation_archive_terminal_checkpoint_184",
+  "audit_pass": true,
+  "boundary": {
+    "audit019_used_as_selector_input": false,
+    "b32k_theorem_claim": false,
+    "global_nonexistence_of_deeper_native_orientation_proved": false,
+    "new_independently_sourced_oriented_structure_may_reopen_gate": true,
+    "physics_claim": false,
+    "registered_offset1_derived_premultiplier": false,
+    "registered_offset1_rejected": false
+  },
+  "bounded_census": {
+    "audit019_free_direct_first_step_orientation_bridge_found": false,
+    "new_oriented_source_structure_required": true,
+    "source_packets": [
+      "receipt_gram_orientation_mode_audit_181",
+      "oriented_first_step_source_census_182",
+      "g5_oriented_lift_field_audit_183"
+    ]
+  },
+  "checks": {
+    "artifact180_locked": true,
+    "b32k_cardinality_derived": false,
+    "clean_source_to_target_generator_sign_bridge_present": false,
+    "g5_contains_nonsplit_C4_extension": true,
+    "g5_forces_nonsplit_C4_lift": false,
+    "g5_literal_action_selects_split_square_plus_one": true,
+    "g5_nonsplit_C4_lifts_are_inverse_pair": true,
+    "g5_selects_one_C4_lift_sign": false,
+    "offset1_and_offset2_remain_exchanged": true,
+    "offset1_selected_premultiplier": false,
+    "offset2_selected_premultiplier": false,
+    "offset4_native": true,
+    "receipt_gram_exact": true,
+    "receipt_gram_selects_orientation_line": true,
+    "receipt_gram_selects_orientation_sign": false
+  },
+  "classification": "bounded_archive_complete_native_mirror_axis_with_unresolved_C4_and_D5_orientation_sign",
+  "g5_lift_result": {
+    "literal_action_order": 2,
+    "literal_action_square_sign": 1,
+    "nonsplit_extension": "C4",
+    "nonsplit_extension_exists": true,
+    "nonsplit_extension_forced": false,
+    "nonsplit_lift_count": 2,
+    "nonsplit_lift_sign_selected": false,
+    "nonsplit_lift_transition_pairs": [
+      [
+        1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    "nonsplit_lifts_are_inverse_pair": true,
+    "split_extension": "C2_x_C2"
+  },
+  "keeper": "The archive contains the mirror and both arrows. It contains no rule choosing one arrow.",
+  "next_gate": "Require genuinely new premultiplier-clean structure carrying a nonzero inversion-odd, gauge-invariant first-step observable and an explicit equivariant map to the target D5 generator sign.",
+  "receipt_gram": {
+    "determinant": 31,
+    "eigenvalues": [
+      31,
+      1
+    ],
+    "gram": [
+      [
+        16,
+        15
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "independent_binary_registration_count_derived": 0,
+    "orientation_line_canonical": true,
+    "orientation_sign_canonical": false,
+    "overlap_15_is_dimension_15": false,
+    "r_minus": [
+      1,
+      3,
+      1,
+      2,
+      1
+    ],
+    "r_plus": [
+      1,
+      2,
+      1,
+      3,
+      1
+    ]
+  },
+  "schema": "electron_spins_twice.native_orientation_archive_terminal_checkpoint.v1",
+  "sources": {
+    "artifact180": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/artifacts/json/native_multiplier_reflection_axis_rotation_sign_obstruction_180.v1.json",
+      "sha256": "2a9eaea1f4537a5275f39552208e25fdee624cf1052eb35532f69ca722b2fb1a",
+      "verdict": "intrinsic_mirror_selects_offset4_but_clean_data_leave_offsets1_and2_exchanged"
+    },
+    "g5_history_filtration": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/artifacts/json/g5_history_filtration_crucible_002.json",
+      "sha256": "0fe630a0b871c09dd808d498c3c73843e0556f905b1018b04b983002d545a76c"
+    },
+    "g5_oriented_lift": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/artifacts/json/g5_oriented_lift_crucible_001.json",
+      "sha256": "ce67ad34e8a68bd85bccf6a38222a607b858e70573fdd2ace8c14ba4b672641a",
+      "verdict": "g5_forces_order2_mirror_and_permits_but_does_not_force_order4_lift"
+    },
+    "project44_transport": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/44-c5-c3-orientation-mechanism/artifacts/json/project41_three_sheet_transport_native_origin_audit_002.v1.json",
+      "sha256": "e2c90d608d2ab80aff64b84a1684cc8b83248bb29f72de27c7c02bdc0e1baf83"
+    }
+  },
+  "theorem": "Across the bounded tracked premultiplier-clean archive, the reflected mirror axis and offset 4 are intrinsic. The receipt Gram matrix selects a one-dimensional orientation line but not its sign. G5 admits a nonsplit C4 extension with two inverse order-four lifts, but neither terminal G5 geometry nor clean tracked ancestry selects one lift or identifies it with the positive rather than negative D5 generator. Offsets 1 and 2 therefore remain exchanged."
+}
