@@ -1,0 +1,134 @@
+{
+  "artifact_id": "native_multiplier_reflection_axis_rotation_sign_obstruction_180",
+  "artifact_version": 1,
+  "audit_pass": true,
+  "boundary": {
+    "bounded_current_source_domain_only": true,
+    "global_nonexistence_of_deeper_native_orientation_proved": false,
+    "new_independently_oriented_source_may_reopen_gate": true,
+    "physics_claim": false,
+    "registered_multiplier_reconstruction_changed": false
+  },
+  "checks": {
+    "Audit019_ablated": true,
+    "both_generator_signs_present": true,
+    "both_receipt_orders_present": true,
+    "clean_native_transport_complete": true,
+    "current_clean_data_select_offset1_invariantly": false,
+    "intrinsic_reflection_conjugates_T_to_T_inverse": true,
+    "intrinsic_reflection_uniquely_fixes_offset4": true,
+    "negative_bridge_selects_offset2": true,
+    "positive_bridge_selects_offset1": true,
+    "source_hashes_verified": true
+  },
+  "classification": "bounded_premultiplier_rotation_sign_obstruction",
+  "clean_receipt_census": {
+    "both_temporal_orders_admitted": true,
+    "double_transposition_count": 15,
+    "order5_rotation_count": 24,
+    "oriented_D5_action_count": 120,
+    "profile_1_2_1_3_1_count": 36,
+    "profile_1_3_1_2_1_count": 36,
+    "unordered_order2_order3_receipt_count": 72
+  },
+  "earned": "The intrinsic reflected D5 action canonically selects offset 4 as its unique reflection-fixed offset. The Audit019-free Project44 transport and unordered minimum-return grammar do not invariantly select offset 1 rather than offset 2.",
+  "intertwiner_census": {
+    "every_clean_receipt_has_negative_intertwiner": true,
+    "every_clean_receipt_has_positive_intertwiner": true,
+    "negative_marked_offset_set": [
+      4
+    ],
+    "negative_successor_offset_set": [
+      2
+    ],
+    "positive_marked_offset_set": [
+      4
+    ],
+    "positive_successor_offset_set": [
+      1
+    ],
+    "successor_offset_set_without_generator_sign": [
+      1,
+      2
+    ]
+  },
+  "keeper": "The mirror is native. The turn is registered.",
+  "next_gate": "Reopen native rotational selection only if a new independently sourced oriented structure identifies one common C5 generator on both the Project44 domain and the reflected-offset domain before consulting multiplier values or registered offset 1.",
+  "source_exclusions": {
+    "Audit019_used": false,
+    "Project44_parity_word_used": false,
+    "Project44_selected_cycle_used": false,
+    "registered_offset1_used_as_selector": false,
+    "saved_multiplier_assignment_used": false
+  },
+  "sources": {
+    "prior_selection_boundary": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/artifacts/json/native_multiplier_explicit_source_obstruction_138.v1.json",
+      "sha256": "a5fe525748e1d43e0d198dee0de8a2316c82e09e55435123d5ee5c4e57a91016"
+    },
+    "project44_clean_native_transport": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/44-c5-c3-orientation-mechanism/artifacts/json/project41_three_sheet_transport_native_origin_audit_002.v1.json",
+      "sha256": "e2c90d608d2ab80aff64b84a1684cc8b83248bb29f72de27c7c02bdc0e1baf83"
+    }
+  },
+  "symmetry_obstruction": {
+    "fixed_axis_survives": true,
+    "negative_rule": "beta_minus R = T inverse beta_minus",
+    "offset1_and_offset2_exchanged_by_admitted_symmetry": true,
+    "offset1_premultiplier_selected": false,
+    "offset4_premultiplier_selected": true,
+    "pairing_rule": "beta_minus = U composed with beta_plus",
+    "positive_rule": "beta_plus R = T beta_plus",
+    "reflection_rule": "both intertwiners preserve the intrinsic reflection action",
+    "rotation_sign_survives": false
+  },
+  "target_action": {
+    "domain": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "intrinsic_reflection_U": [
+      3,
+      2,
+      1,
+      0,
+      4
+    ],
+    "inverse_rotation_T_inverse": [
+      3,
+      4,
+      0,
+      1,
+      2
+    ],
+    "inverse_rotation_formula": "k -> k - 2 mod 5",
+    "reflection_exchanges": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "reflection_fixed_offsets": [
+      4
+    ],
+    "reflection_formula": "k -> 3 - k mod 5",
+    "relation": "U T U = T inverse",
+    "rotation_T": [
+      2,
+      3,
+      4,
+      0,
+      1
+    ],
+    "rotation_formula": "k -> k + 2 mod 5"
+  },
+  "theorem_statement": "Under the pinned Audit019-free native Project44 transport, the unordered minimum-return grammar, and the intrinsic reflected D5 target action, offset 4 is the unique reflection-fixed offset. For every positive source-to-target generator intertwiner beta_plus, composition with the intrinsic reflection U produces an equally valid negative intertwiner beta_minus. The positive bridge sends the marked successor to offset 1, while the negative bridge sends it to offset 2. Therefore no invariant construction from the admitted clean data selects offset 1 rather than offset 2.",
+  "verdict": "intrinsic_mirror_selects_offset4_but_clean_data_leave_offsets1_and2_exchanged"
+}
