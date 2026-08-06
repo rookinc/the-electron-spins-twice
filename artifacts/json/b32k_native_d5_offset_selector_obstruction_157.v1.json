@@ -1,0 +1,248 @@
+{
+  "artifact_id": "b32k_native_d5_offset_selector_obstruction_157",
+  "artifact_type": "bounded_current_source_obstruction",
+  "artifact_version": "1.0.0",
+  "audit_chain": [
+    "b32k_contract_failed_check_recovery_147b",
+    "b32k_ontology_receipt_provenance_148",
+    "b32k_g60_contract_compatibility_149",
+    "b32k_g60_existing_generator_census_150",
+    "b32k_g60_candidate_construction_inspection_151",
+    "b32k_canonical_allocation_contract_152",
+    "b32k_alphabet_coordinate_schema_recovery_153",
+    "b32k_anchor_law_and_schema_provenance_154",
+    "b32k_alphabet_upstream_provenance_155",
+    "b32k_to_d5_bounded_obstruction_156",
+    "b32k_to_d5_failed_fact_recovery_156a"
+  ],
+  "boundaries": {
+    "B32K_plane_schema_repaired": false,
+    "D5_offset_selected": false,
+    "G60_address_map_constructed": false,
+    "bare_G60_global_impossibility_proved": false,
+    "future_B32K_enrichment_refuted": false,
+    "registered_multiplier_theorem_changed": false,
+    "scope": "bounded to current pinned and surveyed sources"
+  },
+  "claim_levels": {
+    "B32K_native_selection": false,
+    "bare_G60_native_selection": false,
+    "registered_if_address_map_declared": true,
+    "registered_offset_1_result_changed": false
+  },
+  "created_utc": "2026-08-06T04:49:51.500285+00:00",
+  "cross_namespace_census": {
+    "files_naming_b32k_and_semantic_d5": [],
+    "multiplier_files_naming_b32k": [],
+    "scope": "tracked UTF-8 files no larger than 2000000 bytes in four audited repositories"
+  },
+  "crucible_tests": [
+    {
+      "reason": "32766 user catalogue positions exceed 60",
+      "status": "pass",
+      "test": "address_space_capacity"
+    },
+    {
+      "reason": "no G60-to-address map f exists",
+      "status": "not_instantiated",
+      "test": "totality_on_60_vertices"
+    },
+    {
+      "reason": "no G60-to-address map f exists",
+      "status": "not_instantiated",
+      "test": "injectivity_on_60_vertices"
+    },
+    {
+      "reason": "B32K sources do not consult multiplier values, but no candidate map exists",
+      "status": "not_instantiated",
+      "test": "premultiplier_independence"
+    },
+    {
+      "reason": "NULL_WELL is pinned at catalogue address 1",
+      "status": "pass_for_B32K_only",
+      "test": "source_bound_boundary_provenance"
+    },
+    {
+      "reason": "coordinate and anchor laws are exact on B32K symbols",
+      "status": "pass_for_symbols_only",
+      "test": "source_bound_index_provenance"
+    },
+    {
+      "reason": "no address assignment exists",
+      "status": "not_instantiated",
+      "test": "saved_G60_numeric_label_independence"
+    },
+    {
+      "reason": "neither f nor rho is defined",
+      "status": "not_instantiated",
+      "test": "covariance_under_480_automorphisms"
+    },
+    {
+      "reason": "no G60 address map or anchor bridge exists",
+      "status": "not_instantiated",
+      "test": "local_V4_gauge_analysis"
+    },
+    {
+      "reason": "arithmetic mod-5 projection is not beta",
+      "status": "fail_absent_bridge",
+      "test": "action_on_actual_D5_offset_domain"
+    },
+    {
+      "reason": "no independently sourced relation acts on the five reflected offsets",
+      "status": "fail_not_derived",
+      "test": "unique_premultiplier_offset_selection"
+    },
+    {
+      "reason": "bare-G60, B32K-native, and registered claims remain distinct",
+      "status": "pass",
+      "test": "claim_level_separation"
+    }
+  ],
+  "fact_checks": {
+    "address_capacity_supports_60": true,
+    "anchor_count_is_15": true,
+    "anchor_formula_exact": true,
+    "canonical_index_has_two_entries": true,
+    "canonical_index_is_pre_ratification": true,
+    "coordinate_formula_exact": true,
+    "first_profile_is_hypothesis": true,
+    "no_file_names_b32k_and_semantic_d5": true,
+    "no_multiplier_file_names_b32k": true,
+    "null_has_no_positive_authority": true,
+    "plane_definition_drift_is_exact": true,
+    "schema_plane_drift_is_exact": true,
+    "semantic_d5_check_uses_tokens_not_hex_substrings": true,
+    "v4_derivation_is_incomplete": true
+  },
+  "facts": {
+    "anchor_count": 15,
+    "anchor_formula": "anchor_number=(wire_index%15)+1",
+    "anchor_formula_exact_on_32768_rows": true,
+    "arithmetic_mod5_projection": "projected_residue=(anchor_number-1)%5",
+    "canonical_index_entry_count": 2,
+    "canonical_index_ratified": false,
+    "catalogue_position_count": 32768,
+    "coordinate_formula": "catalogue_address=plane*1024+r*32+c+1",
+    "coordinate_formula_exact_on_32768_rows": true,
+    "file_count_naming_b32k_and_semantic_d5": 0,
+    "first_profile_row2": "G15_idea_register",
+    "first_profile_row3": "identified_G60_semantic_position",
+    "first_profile_status": "hypothesis",
+    "mod5_projection_declared_as_d5_action": false,
+    "multiplier_file_count_naming_b32k": 0,
+    "observed_plane_maximum": 31,
+    "raw_hex_and_codepoint_d5_collision_count": 512,
+    "registered_null": {
+      "catalogue_address": 1,
+      "key": "NULL_WELL",
+      "lane_index": 0,
+      "meaning": "Registered null. Unbound socket. No positive authority.",
+      "wire_index": 0
+    },
+    "registered_null_has_positive_authority": false,
+    "schema_plane_failure_count": 27648,
+    "schema_plane_maximum": 4,
+    "semantic_d5_token_count_in_alphabet": 0,
+    "undefined_plane_row_count": 27648,
+    "user_catalogue_position_count": 32766,
+    "v4_semantic_derivation_complete": false,
+    "wire_index_count": 32768
+  },
+  "first_symmetry_breaking_input": "the first unsourced choice of f, rho, or beta",
+  "formal_missing_maps": {
+    "beta": {
+      "defined": false,
+      "required_signature": "B32K_derived_five_domain -> reflected_D5_offset_torsor"
+    },
+    "covariance_equation": "f(g.v)=rho(g).f(v)",
+    "f": {
+      "defined": false,
+      "required_signature": "G60_vertices -> B32K_addresses"
+    },
+    "rho": {
+      "defined": false,
+      "required_signature": "Aut(G60) -> Sym(B32K_addresses)"
+    }
+  },
+  "keeper": "B32K supplies the origin of its page. It does not transport that origin into the pentagonal torsor.",
+  "mode": "controlled permanent record after read-only Packets147b-through156a",
+  "positive_compatibility_claim": "A future separately sourced enrichment may use B32K addresses without violating the pinned catalogue contract.",
+  "project": "01-the-electron-spins-twice",
+  "repository_heads": {
+    "b32k": {
+      "branch": "main",
+      "head": "b8b6391d30454502730c02a4ab6172e7819a0e2c"
+    },
+    "b32kd": {
+      "branch": "main",
+      "head": "ecf4bdd272dde290ac1ee7d0a1471d1e4c225aa6"
+    },
+    "b32kv2": {
+      "branch": "main",
+      "head": "1a64c1bb85148e3649895fc7a4687c90c170b3c1"
+    },
+    "multiplier": {
+      "branch": "main",
+      "head": "8afd75abe01d4b5a239a9200269f798089054427"
+    }
+  },
+  "sources": {
+    "b32k_alphabet": {
+      "hash_surface": "raw_file_bytes",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/computing/b32k/src/b32k/b32k.json",
+      "repository": "b32k",
+      "repository_head": "b8b6391d30454502730c02a4ab6172e7819a0e2c",
+      "sha256": "8188fdcf897b2cbfd4811eee02ad1542fc6ab33c4dacfb3db10f6da163935706"
+    },
+    "b32k_alphabet_schema": {
+      "hash_surface": "raw_file_bytes",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/computing/b32k/src/b32k/b32k.schema.json",
+      "repository": "b32k",
+      "repository_head": "b8b6391d30454502730c02a4ab6172e7819a0e2c",
+      "sha256": "926398726005efe02d72dbf0ec1f230a0a199fed2b88dd83747cf333d95ce949"
+    },
+    "b32k_canonical_index": {
+      "hash_surface": "raw_file_bytes",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/computing/b32k/artifacts/json/b32k_aletheos_canonical_index_001.json",
+      "repository": "b32k",
+      "repository_head": "b8b6391d30454502730c02a4ab6172e7819a0e2c",
+      "sha256": "0050bc61a072b21216a84af1808e59f46854be7c078ca87a7ad2b2e3f0ac8306"
+    },
+    "b32k_indexing_profile": {
+      "hash_surface": "raw_file_bytes",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/computing/b32k/artifacts/json/b32k_indexing_profile_002.json",
+      "repository": "b32k",
+      "repository_head": "b8b6391d30454502730c02a4ab6172e7819a0e2c",
+      "sha256": "341ddac255e7390118e0485be739c717fee76351361323329eb0e86f5cc525c3"
+    },
+    "b32kv2_five_row_ontology": {
+      "hash_surface": "raw_file_bytes",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/computing/b32kv2/artifacts/json/b32k_v2_five_row_ontology_001.v1.json",
+      "repository": "b32kv2",
+      "repository_head": "1a64c1bb85148e3649895fc7a4687c90c170b3c1",
+      "sha256": "8be034ad4ebc65d58a00c61c024a4dec252dfe79f0d0c97aa3bbeb82a42c55f4"
+    },
+    "fivefold_selector_obstruction_142": {
+      "hash_surface": "raw_file_bytes",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/artifacts/json/native_multiplier_fivefold_selector_obstruction_142.v1.json",
+      "repository": "multiplier",
+      "repository_head": "8afd75abe01d4b5a239a9200269f798089054427",
+      "sha256": "dff95ce82dd1f920b57739da69dfdea842e1b141b2de9c7dce8c3279f41cad3f"
+    },
+    "registered_selection_boundary_144": {
+      "hash_surface": "raw_file_bytes",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/artifacts/notes/registered_multiplier_native_selection_boundary_144.md",
+      "repository": "multiplier",
+      "repository_head": "8afd75abe01d4b5a239a9200269f798089054427",
+      "sha256": "ba0d149e51fd05e9cc13a32c86126ec6d794d98f8b19e5b82640c61c6b991dd3"
+    }
+  },
+  "status": "theorem_candidate_passed",
+  "symmetry_argument": {
+    "fixed_injective_addresses": "Holding injective addresses fixed under every nontrivial G60 automorphism is incompatible with moved vertices.",
+    "required_enrichment": "A nontrivial equivariant enrichment requires independently defined f, rho, and beta.",
+    "torsor_boundary": "A B32K address origin does not induce an origin in the reflected C5 torsor without beta.",
+    "transported_addresses": "Transporting declared addresses with vertices is covariant bookkeeping and transports the registration."
+  },
+  "theorem_statement": "Under the current pinned B32K, B32Kv2, and registered multiplier sources, B32K supplies a finite source-bound address origin, an exact 15-bit symbol coordinate law, and a registered periodic 15-anchor decoration. It does not supply a source-derived injection from G60 vertices to B32K addresses, an Aut(G60) action on those addresses, or an equivariant bridge from any B32K-derived five-set to the reflected D5 offset torsor. Therefore current B32K does not independently select the unresolved reflected D5 rotational offset before multiplier decoration."
+}
