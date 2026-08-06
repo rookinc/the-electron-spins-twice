@@ -1,0 +1,158 @@
+{
+  "artifact_id": "g900_b32k_covariant_bridge_obstruction_165",
+  "artifact_type": "bounded_current_source_covariant_bridge_obstruction",
+  "boundaries": {
+    "D5_offset_selected": false,
+    "G900_carrier_theorem_changed": false,
+    "f_T_declared": false,
+    "future_enrichment_refuted": false,
+    "registered_multiplier_theorem_changed": false,
+    "rho_tau_declared": false,
+    "slot_anchor_identification_declared": false
+  },
+  "candidate_enrichment": {
+    "anchor_residue": "(f_T(slot,local)%15)+1=slot+1",
+    "covariance_equation": "f_T(tau(slot),local)=rho_tau(f_T(slot,local))",
+    "covariance_exact": true,
+    "f_T": "f_T(slot,local)=15*local+slot",
+    "injective": true,
+    "registration_status": "candidate_only",
+    "rho_tau": "rho_tau(15*local+slot)=15*local+tau(slot)",
+    "source_declared": false,
+    "tau_fixed_address_count": 180,
+    "tau_moved_address_count": 720,
+    "wire_range": [
+      0,
+      899
+    ]
+  },
+  "claim_levels": {
+    "B32K_native_D5_selection": false,
+    "G900_native_D5_selection": false,
+    "premultiplier_clean_candidate_constructed": true,
+    "registered_multiplier_offset_1_changed": false
+  },
+  "first_new_registration": "Identify G15 slot t with B32K anchor A(t+1), equivalently choose the transposed linearization f_T.",
+  "g900_structure": {
+    "edge_count": 3600,
+    "external_edge_count": 1800,
+    "fixed_slots": [
+      6,
+      12,
+      13
+    ],
+    "internal_edge_count": 1800,
+    "native_vertex_formula": "vertex=slot*60+local",
+    "product_coordinates": "V(G15) x V(G60)",
+    "residual_involution": [
+      1,
+      0,
+      5,
+      10,
+      7,
+      2,
+      6,
+      4,
+      14,
+      11,
+      3,
+      9,
+      12,
+      13,
+      8
+    ],
+    "residual_involution_cycles": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        8,
+        14
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "residual_signed_group": "C2",
+    "signed_automorphism_count": 2,
+    "unsigned_automorphism_count": 120,
+    "vertex_count": 900
+  },
+  "keeper": "G900 supplies the loom and an exact threading pattern. The treaty that names the threads is still missing.",
+  "missing_bridges": {
+    "G900_or_B32K_five_domain_to_reflected_D5_torsor": false,
+    "slot_to_B32K_anchor_treaty": false
+  },
+  "negative_result": "The candidate remains a new cross-source registration and has no declared map to the five reflected D5 offsets.",
+  "positive_result": "G900 provides enough product and signed-action structure to construct a premultiplier-clean covariant B32K candidate.",
+  "second_missing_bridge": "Construct beta from a resulting B32K or G900 five-domain to the reflected D5 offset torsor.",
+  "source_count": 10,
+  "sources": {
+    "b32k_alphabet": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/computing/b32k/src/b32k/b32k.json",
+      "repository": "b32k",
+      "sha256": "8188fdcf897b2cbfd4811eee02ad1542fc6ab33c4dacfb3db10f6da163935706"
+    },
+    "b32k_indexing_profile": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/computing/b32k/artifacts/json/b32k_indexing_profile_002.json",
+      "repository": "b32k",
+      "sha256": "341ddac255e7390118e0485be739c717fee76351361323329eb0e86f5cc525c3"
+    },
+    "b32k_obstruction_157": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/artifacts/json/b32k_native_d5_offset_selector_obstruction_157.v1.json",
+      "repository": "multiplier",
+      "sha256": "f217ee7ec8337eb83f3793a70a36d7d2e3e105887c2de607da8ecc3a5de95e79"
+    },
+    "fivefold_obstruction_142": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/artifacts/json/native_multiplier_fivefold_selector_obstruction_142.v1.json",
+      "repository": "multiplier",
+      "sha256": "dff95ce82dd1f920b57739da69dfdea842e1b141b2de9c7dce8c3279f41cad3f"
+    },
+    "g900_construction_script": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/17-g900-theorem-proof/scripts/build_generated_graph_reproducibility.py",
+      "repository": "17-g900-theorem-proof",
+      "sha256": "c4d7da8b229d983c51684974db727a76e9959e8ab551a74e5c5ee097c2a12554"
+    },
+    "g900_definitions": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/17-g900-theorem-proof/paper/sections/02_definitions.tex",
+      "repository": "17-g900-theorem-proof",
+      "sha256": "013bd22c77ecd47ac8d8df08ac57c320facf21f2e2101cd5ec0daebec2f97cdc"
+    },
+    "g900_edge_payload": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/18-g900-kernel-admission/source/kernel_payload/x_sigma_edges.csv",
+      "repository": "18-g900-kernel-admission",
+      "sha256": "ea2679662f4322a9ea021fba1143c804ef73b1fae95f50c77ba76b7fe1092230"
+    },
+    "g900_sign_cocycle": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/17-g900-theorem-proof/support/imports/support/cocycles/p900_external_sign_cocycle.md",
+      "repository": "17-g900-theorem-proof",
+      "sha256": "8e525f840313af9af74b7dc33d1cdfce2e5e545aca2ef924c8bc3b9afc7e1a6b"
+    },
+    "g900_theorem": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/17-g900-theorem-proof/paper/sections/05_main_theorem.tex",
+      "repository": "17-g900-theorem-proof",
+      "sha256": "77fc8f8f8ddb38be56c1a46dc594097c949ad8c483bab61ba9a630d0577ef413"
+    },
+    "selection_boundary_144": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/artifacts/notes/registered_multiplier_native_selection_boundary_144.md",
+      "repository": "multiplier",
+      "sha256": "ba0d149e51fd05e9cc13a32c86126ec6d794d98f8b19e5b82640c61c6b991dd3"
+    }
+  },
+  "status": "theorem_candidate_passed",
+  "theorem": "The admitted G900 construction supplies an exact ordered 15-by-60 product, a native base-60 vertex enumeration, and a signed carrier system reducing the unsigned G15 automorphism group of order 120 to a residual order-two symmetry. The transposed formula f_T(slot,local)=15*local+slot is an exact bijection into the first 900 B32K wire indices and exposes the G15 slot as the B32K anchor residue. Once f_T is chosen, the residual involution transports to an exact covariant address action rho_tau. However, neither f_T nor rho_tau is declared by the pinned G900 or B32K sources, no cross-source slot-to-anchor matching relation is present, and no bridge acts on the reflected five-offset D5 torsor. Therefore current G900 narrows the missing bridge to a coherent candidate enrichment but does not natively select the unresolved premultiplier D5 offset."
+}
