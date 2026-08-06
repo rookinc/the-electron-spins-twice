@@ -1,0 +1,133 @@
+{
+  "artifact_id": "action_aware_emergence_candidate_theorem_195",
+  "audit_pass": true,
+  "boundary": {
+    "absolute_internal_orientation_selected": false,
+    "artifact184_obstruction_preserved": true,
+    "artifact185_contract_realized_as_candidate_construction": true,
+    "candidate_theorem_not_physics_theorem": true,
+    "new_construction_supplies_post_g5_signed_continuation": true,
+    "old_source_supplies_native_branch_and_arriving_incidence": true,
+    "relative_action_conditioned_orientation_selected": true
+  },
+  "checks": {
+    "complete_native_g900_transport_operator_bound": false,
+    "drawing_quotient_recovered": true,
+    "forward_action_conditionally_selects_offset1": true,
+    "full_signed_continuations_mirror_equivariant": true,
+    "native_arriving_incidence_sign_carrier_bound": true,
+    "native_g5_branch_core_bound": true,
+    "physics_claim": false,
+    "post_g5_extension_recovered_from_old_source": false,
+    "post_g5_signed_continuation_constructed": true,
+    "reverse_action_conditionally_selects_offset2": true,
+    "source_order_anchor_selects_unique_sign_character": true,
+    "unconditional_offset1_selected": false
+  },
+  "complete_action_aware_paths": {
+    "forward": [
+      "1_start",
+      "2",
+      "1_after_2",
+      "3",
+      "1_after_3",
+      "4",
+      "5_plus",
+      "6_with_plus_receipt",
+      "1_after_6_plus",
+      "plus_7",
+      "8_plus"
+    ],
+    "reverse": [
+      "1_start",
+      "2",
+      "1_after_2",
+      "3",
+      "1_after_3",
+      "4",
+      "5_minus",
+      "6_with_minus_receipt",
+      "1_after_6_minus",
+      "minus_7",
+      "8_minus"
+    ]
+  },
+  "keeper": "The old source supplies the arriving sign carrier. Lawful action carries that sign through the receipt.",
+  "native_old_source_theorem": {
+    "arriving_incidence_states": [
+      [
+        "plus_out",
+        "G5"
+      ],
+      [
+        "minus_out",
+        "G5"
+      ]
+    ],
+    "branch_source": "G3",
+    "edge_mirror_action": {
+      "minus_out": "plus_out",
+      "plus_out": "minus_out"
+    },
+    "mirror_intermediates": [
+      "G4_plus",
+      "G4_minus"
+    ],
+    "shared_arrival_vertex": "G5",
+    "sign_character": {
+      "minus_out": -1,
+      "plus_out": 1
+    },
+    "source_order_authority": {
+      "minus_out": "derived_mirror",
+      "plus_out": "source_ordered"
+    }
+  },
+  "new_post_g5_construction": {
+    "bare_quotient_tail": [
+      "6",
+      "1",
+      "7",
+      "8"
+    ],
+    "minus": {
+      "action_orientation": "a_inverse",
+      "conditional_successor_offset": 2,
+      "native_incidence_state": [
+        "minus_out",
+        "G5"
+      ],
+      "selected_lift": "H_inverse",
+      "signed_return_state": "1_after_6_minus",
+      "signed_stage7": "minus_7",
+      "signed_stage8_receipt": "8_minus"
+    },
+    "mirror_equivariant": true,
+    "plus": {
+      "action_orientation": "a",
+      "conditional_successor_offset": 1,
+      "native_incidence_state": [
+        "plus_out",
+        "G5"
+      ],
+      "selected_lift": "H",
+      "signed_return_state": "1_after_6_plus",
+      "signed_stage7": "plus_7",
+      "signed_stage8_receipt": "8_plus"
+    }
+  },
+  "schema": "electron_spins_twice.action_aware_emergence_candidate_theorem.v1",
+  "source_locks": {
+    "g5_history_filtration_002": {
+      "path": "artifacts/json/g5_history_filtration_crucible_002.json",
+      "sha256": "0fe630a0b871c09dd808d498c3c73843e0556f905b1018b04b983002d545a76c",
+      "verdict": "ordered_history_creates_one_nontrivial_z2_holonomy_class_but_does_not_select_it"
+    },
+    "lawful_action_contract_185": {
+      "path": "artifacts/json/lawful_informative_action_orientation_contract_185.v1.json",
+      "sha256": "a940c408b4728c8e82da17e2e9098229ba6fe830618142c89ce187e9da9ef70a"
+    }
+  },
+  "status": "author_supplied_candidate_construction_theorem",
+  "verdict": "native_arriving_incidence_and_lawful_action_define_a_complete_mirror_equivariant_signed_emergence_receipt_candidate"
+}
