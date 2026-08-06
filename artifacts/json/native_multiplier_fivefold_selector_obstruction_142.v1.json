@@ -1,0 +1,169 @@
+{
+  "artifact_id": "native_multiplier_fivefold_selector_obstruction_142",
+  "audit_pass": true,
+  "boundary": {
+    "bounded_Project41_JSON_domain_only": true,
+    "global_nonexistence_of_native_selector_proved": false,
+    "new_independent_source_may_reopen_gate": true,
+    "physical_interpretation_claimed": false,
+    "registered_assignment_changed": false
+  },
+  "candidate_rows": [
+    {
+      "direct_source_refs": [
+        "connection_stabilizer_native_deck_action_audit_014.json",
+        "intrinsic_g15_line_petersen_audit_015.json",
+        "native_g60_order60_cayley_transport_audit_013.json"
+      ],
+      "domain": "A5_V4_subgroup_five_set",
+      "exclusion_reason": "It selects the connection-stabilizer V4 subgroup inside a faithful A5 five-point action, but supplies no bridge to the five reflected D5 rotational offsets.",
+      "explicit_D5_offset_bridge": false,
+      "file": "explicit_standard_a5_identification_audit_016.json",
+      "forbidden_transitive_ancestors": [],
+      "independent_D5_selector_bridge": false,
+      "transitive_source_count": 3,
+      "verdict": "the_native_g60_cayley_group_is_explicitly_standard_a5_via_its_faithful_conjugation_action_on_five_v4_subgroups"
+    },
+    {
+      "direct_source_refs": [
+        "connection_stabilizer_native_deck_action_audit_014.json",
+        "local_shift_pair_admissibility_classification_audit_026b.json",
+        "six_orbit_pairwise_grammar_compatibility_audit_026c.json"
+      ],
+      "domain": "gauge_obstruction_domain",
+      "exclusion_reason": "It records gauge impossibility rather than an action on the five reflected D5 offsets, and its ancestry reaches the multiplier source chain.",
+      "explicit_D5_offset_bridge": false,
+      "file": "global_uniform_grammar_gauge_assignment_audit_027a.json",
+      "forbidden_transitive_ancestors": [
+        "a5_v4_k22_four_slot_alignment_audit_019.json",
+        "cross_system_pentagram_twist_audit_011.json"
+      ],
+      "independent_D5_selector_bridge": false,
+      "transitive_source_count": 22,
+      "verdict": "the_diagonal_pairwise_support_law_forces_one_uniform_grammar_type_on_all_six_orbits_but_no_globally_consistent_v4xv4_seed_gauge_assignment_exists_in_the_complete_anchored_census"
+    },
+    {
+      "direct_source_refs": [
+        "connection_stabilizer_native_deck_action_audit_014.json",
+        "global_uniform_grammar_gauge_assignment_audit_027a.json",
+        "six_orbit_pairwise_grammar_compatibility_audit_026c.json"
+      ],
+      "domain": "gauge_obstruction_domain",
+      "exclusion_reason": "It records gauge impossibility rather than an action on the five reflected D5 offsets, and its ancestry reaches the multiplier source chain.",
+      "explicit_D5_offset_bridge": false,
+      "file": "triangle_cocycle_obstruction_audit_027b.json",
+      "forbidden_transitive_ancestors": [
+        "a5_v4_k22_four_slot_alignment_audit_019.json",
+        "cross_system_pentagram_twist_audit_011.json"
+      ],
+      "independent_D5_selector_bridge": false,
+      "transitive_source_count": 23,
+      "verdict": "every_one_of_the_eighty_uniform_grammar_triangle_instances_has_nonempty_pairwise_edge_support_but_zero_gauge_closure_witnesses_so_the_global_assignment_obstruction_is_already_present_on_every_k3_interface_core"
+    },
+    {
+      "direct_source_refs": [
+        "character_phase_compensation_audit_027e.json",
+        "connection_stabilizer_native_deck_action_audit_014.json",
+        "global_interface_character_obstruction_audit_027c.json",
+        "native_character_axis_interpretation_audit_027d.json",
+        "six_orbit_pairwise_grammar_compatibility_audit_026c.json"
+      ],
+      "domain": "affine_translation_gauge_domain",
+      "exclusion_reason": "Its successful two-translation coset is not a five-offset action, and its ancestry reaches the multiplier source chain.",
+      "explicit_D5_offset_bridge": false,
+      "file": "native_affine_compensation_audit_027f.json",
+      "forbidden_transitive_ancestors": [
+        "a5_v4_k22_four_slot_alignment_audit_019.json",
+        "cross_system_pentagram_twist_audit_011.json"
+      ],
+      "independent_D5_selector_bridge": false,
+      "transitive_source_count": 27,
+      "verdict": "the_unique_s6_invariant_character_phase_has_an_exact_native_affine_realization_for_G0_only_using_the_two_translation_gauges_b_ab_and_ab_b_which_form_one_coset_of_the_G0_delta_a_a_and_each_realization_admits_thirtytwo_global_gauge_assignments"
+    },
+    {
+      "direct_source_refs": [
+        "c3_petersen_connection_geometry_audit_018.json",
+        "explicit_standard_a5_identification_audit_016.json",
+        "index5_refinement_action_audit_028k.json",
+        "rank8_coherent_configuration_audit_028i.json",
+        "rank8_schurian_automorphism_group_audit_028j.json",
+        "synthematic_total_534_transport_tower_audit_020.json"
+      ],
+      "domain": "refinement_K5_five_set",
+      "exclusion_reason": "It joins refinement, native V4, and K5 five-sets, not D5 rotational offsets, and its ancestry reaches the multiplier source chain.",
+      "explicit_D5_offset_bridge": false,
+      "file": "refinement_native_k5_equivariant_join_audit_028l.json",
+      "forbidden_transitive_ancestors": [
+        "a5_v4_k22_four_slot_alignment_audit_019.json",
+        "canonical_seam_carrier_offset_audit_028e.json",
+        "cross_system_pentagram_twist_audit_011.json"
+      ],
+      "independent_D5_selector_bridge": false,
+      "transitive_source_count": 29,
+      "verdict": "the_five_conjugate_rank8_refinements_are_exactly_and_equivariantly_identified_with_the_five_native_A5_V4_subgroups_and_with_the_five_Audit020_K5_base_vertices_via_the_Audit018_C3_support_intersection_law"
+    }
+  ],
+  "checks": {
+    "A5_V4_five_set_kept_distinct_from_D5_offsets": true,
+    "K5_five_set_kept_distinct_from_D5_offsets": true,
+    "all_candidate_sources_pass": true,
+    "candidate_count_is_five": true,
+    "no_candidate_has_explicit_D5_offset_bridge": true,
+    "no_candidate_has_independent_D5_selector_bridge": true,
+    "obstruction138_hash_verified": true,
+    "transitive_multiplier_dependencies_recorded": true
+  },
+  "classification": {
+    "independent_D5_selector_bridge_count": 0,
+    "registered_selected_offset": 1,
+    "remaining_reflected_D5_offset_count": 5,
+    "selected_offset_status": "irreducible_registered_input",
+    "surveyed_candidate_count": 5
+  },
+  "generated_at_utc": "2026-08-06T03:30:34.944682+00:00",
+  "interpretation": {
+    "cardinality_warning": "The A5 V4-subgroup five-set, K5 refinement five-set, and D5 rotational-offset five-set are distinct domains.",
+    "earned": "The five adjacent Project41 candidates do not act on the five reflected D5 rotations through an independent source bridge."
+  },
+  "keeper": "Five does not map to five merely because the numbers agree.",
+  "next_gate": "Retain the fivefold rotational choice as registered data. Reopen native selection only when a new independently sourced structure comes with an explicit equivariant action on the reflected D5 offset domain.",
+  "schema_version": "1.0",
+  "sources": {
+    "explicit_standard_a5_identification_audit_016.json": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/explicit_standard_a5_identification_audit_016.json",
+      "sha256": "66d94482d738608033c852e863b7b025601ba791826027b612e88071c4063995",
+      "verdict": "the_native_g60_cayley_group_is_explicitly_standard_a5_via_its_faithful_conjugation_action_on_five_v4_subgroups"
+    },
+    "global_uniform_grammar_gauge_assignment_audit_027a.json": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/global_uniform_grammar_gauge_assignment_audit_027a.json",
+      "sha256": "ff5ed2c229e2f6a9b93c012b0242063f262452cbb69f1529200ad8477df3d1ba",
+      "verdict": "the_diagonal_pairwise_support_law_forces_one_uniform_grammar_type_on_all_six_orbits_but_no_globally_consistent_v4xv4_seed_gauge_assignment_exists_in_the_complete_anchored_census"
+    },
+    "native_affine_compensation_audit_027f.json": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/native_affine_compensation_audit_027f.json",
+      "sha256": "f98e0b171b70eacfe0d43be77b93f2ab7591665399adcac9447848635a153369",
+      "verdict": "the_unique_s6_invariant_character_phase_has_an_exact_native_affine_realization_for_G0_only_using_the_two_translation_gauges_b_ab_and_ab_b_which_form_one_coset_of_the_G0_delta_a_a_and_each_realization_admits_thirtytwo_global_gauge_assignments"
+    },
+    "obstruction138": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/artifacts/json/native_multiplier_explicit_source_obstruction_138.v1.json",
+      "sha256": "a5fe525748e1d43e0d198dee0de8a2316c82e09e55435123d5ee5c4e57a91016"
+    },
+    "refinement_native_k5_equivariant_join_audit_028l.json": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/refinement_native_k5_equivariant_join_audit_028l.json",
+      "sha256": "7ca4b49bd84b6f158499bf5a068c809ef57195ac240bd15525aa5179e39a6f4b",
+      "verdict": "the_five_conjugate_rank8_refinements_are_exactly_and_equivariantly_identified_with_the_five_native_A5_V4_subgroups_and_with_the_five_Audit020_K5_base_vertices_via_the_Audit018_C3_support_intersection_law"
+    },
+    "triangle_cocycle_obstruction_audit_027b.json": {
+      "audit_pass": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/triangle_cocycle_obstruction_audit_027b.json",
+      "sha256": "e7564044d3a8863e36fb533e26dfcbc86f0c47efc3c1fa7d607d90596afbff56",
+      "verdict": "every_one_of_the_eighty_uniform_grammar_triangle_instances_has_nonempty_pairwise_edge_support_but_zero_gauge_closure_witnesses_so_the_global_assignment_obstruction_is_already_present_on_every_k3_interface_core"
+    }
+  },
+  "verdict": "bounded_project41_domain_contains_no_independent_bridge_to_the_five_reflected_D5_offsets"
+}
