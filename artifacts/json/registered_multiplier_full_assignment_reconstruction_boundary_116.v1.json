@@ -1,0 +1,1501 @@
+{
+  "artifact_id": "registered_multiplier_full_assignment_reconstruction_boundary_116",
+  "artifact_type": "registered_reconstruction_boundary",
+  "artifact_version": 1,
+  "audit_pass": true,
+  "boundary": {
+    "K5_to_K6_exception_selector_derived": false,
+    "exceptional_point_is_explicit_registered_input": true,
+    "exceptional_point_origin_derived": false,
+    "exported_v4_chart_is_authoritative_registered_data": true,
+    "exported_v4_chart_is_native_graph_invariant": false,
+    "full_multiplier_assignment_reconstructed": true,
+    "full_multiplier_origin_derived": false,
+    "physical_interpretation_claimed": false,
+    "registered_reconstruction_only": true,
+    "root_origin_derived": false,
+    "unordered_C23_packet_origin_derived": false
+  },
+  "candidate_census": {
+    "candidate_count": 16,
+    "candidate_rows": [
+      {
+        "default_phase1_endpoint": 2,
+        "exact": true,
+        "exceptional_endpoint": 3,
+        "exceptional_point": 0,
+        "mismatch_count": 0,
+        "mismatch_states": [],
+        "mismatched_C23_fiber_count": 0,
+        "mismatched_C23_fibers": [],
+        "predicted_phase_by_q30": {
+          "0": 1,
+          "13": 1,
+          "15": 1,
+          "19": 0,
+          "2": 0,
+          "20": 0,
+          "26": 0,
+          "28": 1,
+          "6": 1,
+          "8": 0
+        },
+        "reconstructed_profile": {
+          "2": 40,
+          "3": 20
+        },
+        "root_phase1_coset": "A"
+      },
+      {
+        "default_phase1_endpoint": 2,
+        "exact": false,
+        "exceptional_endpoint": 3,
+        "exceptional_point": 1,
+        "mismatch_count": 8,
+        "mismatch_states": [
+          14,
+          22,
+          29,
+          34,
+          37,
+          49,
+          53,
+          58
+        ],
+        "mismatched_C23_fiber_count": 4,
+        "mismatched_C23_fibers": [
+          13,
+          19,
+          26,
+          28
+        ],
+        "predicted_phase_by_q30": {
+          "0": 1,
+          "13": 0,
+          "15": 1,
+          "19": 1,
+          "2": 0,
+          "20": 0,
+          "26": 1,
+          "28": 0,
+          "6": 1,
+          "8": 0
+        },
+        "reconstructed_profile": {
+          "2": 40,
+          "3": 20
+        },
+        "root_phase1_coset": "A"
+      },
+      {
+        "default_phase1_endpoint": 2,
+        "exact": false,
+        "exceptional_endpoint": 3,
+        "exceptional_point": 4,
+        "mismatch_count": 8,
+        "mismatch_states": [
+          2,
+          10,
+          17,
+          22,
+          37,
+          38,
+          53,
+          58
+        ],
+        "mismatched_C23_fiber_count": 4,
+        "mismatched_C23_fibers": [
+          2,
+          15,
+          19,
+          28
+        ],
+        "predicted_phase_by_q30": {
+          "0": 1,
+          "13": 1,
+          "15": 0,
+          "19": 1,
+          "2": 1,
+          "20": 0,
+          "26": 0,
+          "28": 0,
+          "6": 1,
+          "8": 0
+        },
+        "reconstructed_profile": {
+          "2": 40,
+          "3": 20
+        },
+        "root_phase1_coset": "A"
+      },
+      {
+        "default_phase1_endpoint": 2,
+        "exact": false,
+        "exceptional_endpoint": 3,
+        "exceptional_point": 5,
+        "mismatch_count": 8,
+        "mismatch_states": [
+          6,
+          22,
+          23,
+          37,
+          42,
+          45,
+          53,
+          58
+        ],
+        "mismatched_C23_fiber_count": 4,
+        "mismatched_C23_fibers": [
+          6,
+          19,
+          20,
+          28
+        ],
+        "predicted_phase_by_q30": {
+          "0": 1,
+          "13": 1,
+          "15": 1,
+          "19": 1,
+          "2": 0,
+          "20": 1,
+          "26": 0,
+          "28": 0,
+          "6": 0,
+          "8": 0
+        },
+        "reconstructed_profile": {
+          "2": 40,
+          "3": 20
+        },
+        "root_phase1_coset": "A"
+      },
+      {
+        "default_phase1_endpoint": 3,
+        "exact": false,
+        "exceptional_endpoint": 2,
+        "exceptional_point": 0,
+        "mismatch_count": 16,
+        "mismatch_states": [
+          2,
+          6,
+          10,
+          14,
+          17,
+          22,
+          23,
+          29,
+          34,
+          37,
+          38,
+          42,
+          45,
+          49,
+          53,
+          58
+        ],
+        "mismatched_C23_fiber_count": 8,
+        "mismatched_C23_fibers": [
+          2,
+          6,
+          13,
+          15,
+          19,
+          20,
+          26,
+          28
+        ],
+        "predicted_phase_by_q30": {
+          "0": 1,
+          "13": 0,
+          "15": 0,
+          "19": 1,
+          "2": 1,
+          "20": 1,
+          "26": 1,
+          "28": 0,
+          "6": 0,
+          "8": 0
+        },
+        "reconstructed_profile": {
+          "2": 40,
+          "3": 20
+        },
+        "root_phase1_coset": "A"
+      },
+      {
+        "default_phase1_endpoint": 3,
+        "exact": false,
+        "exceptional_endpoint": 2,
+        "exceptional_point": 1,
+        "mismatch_count": 8,
+        "mismatch_states": [
+          2,
+          6,
+          10,
+          17,
+          23,
+          38,
+          42,
+          45
+        ],
+        "mismatched_C23_fiber_count": 4,
+        "mismatched_C23_fibers": [
+          2,
+          6,
+          15,
+          20
+        ],
+        "predicted_phase_by_q30": {
+          "0": 1,
+          "13": 1,
+          "15": 0,
+          "19": 0,
+          "2": 1,
+          "20": 1,
+          "26": 0,
+          "28": 1,
+          "6": 0,
+          "8": 0
+        },
+        "reconstructed_profile": {
+          "2": 40,
+          "3": 20
+        },
+        "root_phase1_coset": "A"
+      },
+      {
+        "default_phase1_endpoint": 3,
+        "exact": false,
+        "exceptional_endpoint": 2,
+        "exceptional_point": 4,
+        "mismatch_count": 8,
+        "mismatch_states": [
+          6,
+          14,
+          23,
+          29,
+          34,
+          42,
+          45,
+          49
+        ],
+        "mismatched_C23_fiber_count": 4,
+        "mismatched_C23_fibers": [
+          6,
+          13,
+          20,
+          26
+        ],
+        "predicted_phase_by_q30": {
+          "0": 1,
+          "13": 0,
+          "15": 1,
+          "19": 0,
+          "2": 0,
+          "20": 1,
+          "26": 1,
+          "28": 1,
+          "6": 0,
+          "8": 0
+        },
+        "reconstructed_profile": {
+          "2": 40,
+          "3": 20
+        },
+        "root_phase1_coset": "A"
+      },
+      {
+        "default_phase1_endpoint": 3,
+        "exact": false,
+        "exceptional_endpoint": 2,
+        "exceptional_point": 5,
+        "mismatch_count": 8,
+        "mismatch_states": [
+          2,
+          10,
+          14,
+          17,
+          29,
+          34,
+          38,
+          49
+        ],
+        "mismatched_C23_fiber_count": 4,
+        "mismatched_C23_fibers": [
+          2,
+          13,
+          15,
+          26
+        ],
+        "predicted_phase_by_q30": {
+          "0": 1,
+          "13": 0,
+          "15": 0,
+          "19": 0,
+          "2": 1,
+          "20": 0,
+          "26": 1,
+          "28": 1,
+          "6": 1,
+          "8": 0
+        },
+        "reconstructed_profile": {
+          "2": 40,
+          "3": 20
+        },
+        "root_phase1_coset": "A"
+      },
+      {
+        "default_phase1_endpoint": 2,
+        "exact": false,
+        "exceptional_endpoint": 3,
+        "exceptional_point": 0,
+        "mismatch_count": 4,
+        "mismatch_states": [
+          0,
+          8,
+          15,
+          40
+        ],
+        "mismatched_C23_fiber_count": 2,
+        "mismatched_C23_fibers": [
+          0,
+          8
+        ],
+        "predicted_phase_by_q30": {
+          "0": 0,
+          "13": 1,
+          "15": 1,
+          "19": 0,
+          "2": 0,
+          "20": 0,
+          "26": 0,
+          "28": 1,
+          "6": 1,
+          "8": 1
+        },
+        "reconstructed_profile": {
+          "2": 40,
+          "3": 20
+        },
+        "root_phase1_coset": "B"
+      },
+      {
+        "default_phase1_endpoint": 2,
+        "exact": false,
+        "exceptional_endpoint": 3,
+        "exceptional_point": 1,
+        "mismatch_count": 12,
+        "mismatch_states": [
+          0,
+          8,
+          14,
+          15,
+          22,
+          29,
+          34,
+          37,
+          40,
+          49,
+          53,
+          58
+        ],
+        "mismatched_C23_fiber_count": 6,
+        "mismatched_C23_fibers": [
+          0,
+          8,
+          13,
+          19,
+          26,
+          28
+        ],
+        "predicted_phase_by_q30": {
+          "0": 0,
+          "13": 0,
+          "15": 1,
+          "19": 1,
+          "2": 0,
+          "20": 0,
+          "26": 1,
+          "28": 0,
+          "6": 1,
+          "8": 1
+        },
+        "reconstructed_profile": {
+          "2": 40,
+          "3": 20
+        },
+        "root_phase1_coset": "B"
+      },
+      {
+        "default_phase1_endpoint": 2,
+        "exact": false,
+        "exceptional_endpoint": 3,
+        "exceptional_point": 4,
+        "mismatch_count": 12,
+        "mismatch_states": [
+          0,
+          2,
+          8,
+          10,
+          15,
+          17,
+          22,
+          37,
+          38,
+          40,
+          53,
+          58
+        ],
+        "mismatched_C23_fiber_count": 6,
+        "mismatched_C23_fibers": [
+          0,
+          2,
+          8,
+          15,
+          19,
+          28
+        ],
+        "predicted_phase_by_q30": {
+          "0": 0,
+          "13": 1,
+          "15": 0,
+          "19": 1,
+          "2": 1,
+          "20": 0,
+          "26": 0,
+          "28": 0,
+          "6": 1,
+          "8": 1
+        },
+        "reconstructed_profile": {
+          "2": 40,
+          "3": 20
+        },
+        "root_phase1_coset": "B"
+      },
+      {
+        "default_phase1_endpoint": 2,
+        "exact": false,
+        "exceptional_endpoint": 3,
+        "exceptional_point": 5,
+        "mismatch_count": 12,
+        "mismatch_states": [
+          0,
+          6,
+          8,
+          15,
+          22,
+          23,
+          37,
+          40,
+          42,
+          45,
+          53,
+          58
+        ],
+        "mismatched_C23_fiber_count": 6,
+        "mismatched_C23_fibers": [
+          0,
+          6,
+          8,
+          19,
+          20,
+          28
+        ],
+        "predicted_phase_by_q30": {
+          "0": 0,
+          "13": 1,
+          "15": 1,
+          "19": 1,
+          "2": 0,
+          "20": 1,
+          "26": 0,
+          "28": 0,
+          "6": 0,
+          "8": 1
+        },
+        "reconstructed_profile": {
+          "2": 40,
+          "3": 20
+        },
+        "root_phase1_coset": "B"
+      },
+      {
+        "default_phase1_endpoint": 3,
+        "exact": false,
+        "exceptional_endpoint": 2,
+        "exceptional_point": 0,
+        "mismatch_count": 20,
+        "mismatch_states": [
+          0,
+          2,
+          6,
+          8,
+          10,
+          14,
+          15,
+          17,
+          22,
+          23,
+          29,
+          34,
+          37,
+          38,
+          40,
+          42,
+          45,
+          49,
+          53,
+          58
+        ],
+        "mismatched_C23_fiber_count": 10,
+        "mismatched_C23_fibers": [
+          0,
+          2,
+          6,
+          8,
+          13,
+          15,
+          19,
+          20,
+          26,
+          28
+        ],
+        "predicted_phase_by_q30": {
+          "0": 0,
+          "13": 0,
+          "15": 0,
+          "19": 1,
+          "2": 1,
+          "20": 1,
+          "26": 1,
+          "28": 0,
+          "6": 0,
+          "8": 1
+        },
+        "reconstructed_profile": {
+          "2": 40,
+          "3": 20
+        },
+        "root_phase1_coset": "B"
+      },
+      {
+        "default_phase1_endpoint": 3,
+        "exact": false,
+        "exceptional_endpoint": 2,
+        "exceptional_point": 1,
+        "mismatch_count": 12,
+        "mismatch_states": [
+          0,
+          2,
+          6,
+          8,
+          10,
+          15,
+          17,
+          23,
+          38,
+          40,
+          42,
+          45
+        ],
+        "mismatched_C23_fiber_count": 6,
+        "mismatched_C23_fibers": [
+          0,
+          2,
+          6,
+          8,
+          15,
+          20
+        ],
+        "predicted_phase_by_q30": {
+          "0": 0,
+          "13": 1,
+          "15": 0,
+          "19": 0,
+          "2": 1,
+          "20": 1,
+          "26": 0,
+          "28": 1,
+          "6": 0,
+          "8": 1
+        },
+        "reconstructed_profile": {
+          "2": 40,
+          "3": 20
+        },
+        "root_phase1_coset": "B"
+      },
+      {
+        "default_phase1_endpoint": 3,
+        "exact": false,
+        "exceptional_endpoint": 2,
+        "exceptional_point": 4,
+        "mismatch_count": 12,
+        "mismatch_states": [
+          0,
+          6,
+          8,
+          14,
+          15,
+          23,
+          29,
+          34,
+          40,
+          42,
+          45,
+          49
+        ],
+        "mismatched_C23_fiber_count": 6,
+        "mismatched_C23_fibers": [
+          0,
+          6,
+          8,
+          13,
+          20,
+          26
+        ],
+        "predicted_phase_by_q30": {
+          "0": 0,
+          "13": 0,
+          "15": 1,
+          "19": 0,
+          "2": 0,
+          "20": 1,
+          "26": 1,
+          "28": 1,
+          "6": 0,
+          "8": 1
+        },
+        "reconstructed_profile": {
+          "2": 40,
+          "3": 20
+        },
+        "root_phase1_coset": "B"
+      },
+      {
+        "default_phase1_endpoint": 3,
+        "exact": false,
+        "exceptional_endpoint": 2,
+        "exceptional_point": 5,
+        "mismatch_count": 12,
+        "mismatch_states": [
+          0,
+          2,
+          8,
+          10,
+          14,
+          15,
+          17,
+          29,
+          34,
+          38,
+          40,
+          49
+        ],
+        "mismatched_C23_fiber_count": 6,
+        "mismatched_C23_fibers": [
+          0,
+          2,
+          8,
+          13,
+          15,
+          26
+        ],
+        "predicted_phase_by_q30": {
+          "0": 0,
+          "13": 0,
+          "15": 0,
+          "19": 0,
+          "2": 1,
+          "20": 0,
+          "26": 1,
+          "28": 1,
+          "6": 1,
+          "8": 1
+        },
+        "reconstructed_profile": {
+          "2": 40,
+          "3": 20
+        },
+        "root_phase1_coset": "B"
+      }
+    ],
+    "exact_candidate_count": 1,
+    "four_way_structural_exception_rows": [
+      {
+        "exact": true,
+        "exceptional_point": 0,
+        "mismatch_count": 0,
+        "mismatched_C23_fibers": []
+      },
+      {
+        "exact": false,
+        "exceptional_point": 1,
+        "mismatch_count": 8,
+        "mismatched_C23_fibers": [
+          13,
+          19,
+          26,
+          28
+        ]
+      },
+      {
+        "exact": false,
+        "exceptional_point": 4,
+        "mismatch_count": 8,
+        "mismatched_C23_fibers": [
+          2,
+          15,
+          19,
+          28
+        ]
+      },
+      {
+        "exact": false,
+        "exceptional_point": 5,
+        "mismatch_count": 8,
+        "mismatched_C23_fibers": [
+          6,
+          19,
+          20,
+          28
+        ]
+      }
+    ],
+    "unique_exact_candidate": true
+  },
+  "checks": {
+    "all_source_audits_pass": true,
+    "assignment_has_all_sixty_states": true,
+    "assignment_profile_is_40_multiplier2_20_multiplier3": true,
+    "exact_exceptional_point_is_zero": true,
+    "exported_representatives_equal_numeric_minima": true,
+    "full_sixty_multiplier_assignment_reconstructed": true,
+    "g30_partition_profile_is_15_10_5": true,
+    "minority_coset_is_A_in_saved_chart": true,
+    "no_exception_control_fails_on_four_states": true,
+    "role_value_at_0_reconstructs_all_fifteen_duads": true,
+    "root_endpoint_minority_degrees_are_2_1": true,
+    "root_is_unique_C23_C23_g15_vertex": true,
+    "sixteen_candidate_models_tested": true,
+    "split_orientation_profile_is_3_5": true,
+    "split_vertex_set_has_eight_members": true,
+    "ten_C23_fibers_form_five_complementary_pairs": true,
+    "theorem110_C33_g30_set_matches_source_assignment": true,
+    "theorem110_sha256_matches_committed_artifact": true,
+    "unique_exact_candidate_found": true
+  },
+  "construction": {
+    "C23_internal_rows": [
+      {
+        "a_coset": "A",
+        "multiplier3_a_phase": 1,
+        "multiplier3_group_element": "a",
+        "multiplier3_vertex": 40,
+        "q15": 0,
+        "q30": 0,
+        "vertices": [
+          0,
+          40
+        ]
+      },
+      {
+        "a_coset": "A",
+        "multiplier3_a_phase": 0,
+        "multiplier3_group_element": "1",
+        "multiplier3_vertex": 2,
+        "q15": 2,
+        "q30": 2,
+        "vertices": [
+          2,
+          10
+        ]
+      },
+      {
+        "a_coset": "B",
+        "multiplier3_a_phase": 1,
+        "multiplier3_group_element": "ab",
+        "multiplier3_vertex": 6,
+        "q15": 3,
+        "q30": 6,
+        "vertices": [
+          6,
+          45
+        ]
+      },
+      {
+        "a_coset": "B",
+        "multiplier3_a_phase": 0,
+        "multiplier3_group_element": "b",
+        "multiplier3_vertex": 15,
+        "q15": 0,
+        "q30": 8,
+        "vertices": [
+          8,
+          15
+        ]
+      },
+      {
+        "a_coset": "A",
+        "multiplier3_a_phase": 1,
+        "multiplier3_group_element": "a",
+        "multiplier3_vertex": 29,
+        "q15": 8,
+        "q30": 13,
+        "vertices": [
+          14,
+          29
+        ]
+      },
+      {
+        "a_coset": "B",
+        "multiplier3_a_phase": 1,
+        "multiplier3_group_element": "ab",
+        "multiplier3_vertex": 38,
+        "q15": 6,
+        "q30": 15,
+        "vertices": [
+          17,
+          38
+        ]
+      },
+      {
+        "a_coset": "A",
+        "multiplier3_a_phase": 0,
+        "multiplier3_group_element": "1",
+        "multiplier3_vertex": 22,
+        "q15": 13,
+        "q30": 19,
+        "vertices": [
+          22,
+          53
+        ]
+      },
+      {
+        "a_coset": "B",
+        "multiplier3_a_phase": 0,
+        "multiplier3_group_element": "b",
+        "multiplier3_vertex": 23,
+        "q15": 10,
+        "q30": 20,
+        "vertices": [
+          23,
+          42
+        ]
+      },
+      {
+        "a_coset": "B",
+        "multiplier3_a_phase": 0,
+        "multiplier3_group_element": "b",
+        "multiplier3_vertex": 34,
+        "q15": 12,
+        "q30": 26,
+        "vertices": [
+          34,
+          49
+        ]
+      },
+      {
+        "a_coset": "B",
+        "multiplier3_a_phase": 1,
+        "multiplier3_group_element": "ab",
+        "multiplier3_vertex": 37,
+        "q15": 7,
+        "q30": 28,
+        "vertices": [
+          37,
+          58
+        ]
+      }
+    ],
+    "default_phase1_endpoint": 2,
+    "exceptional_phase1_endpoint": 3,
+    "exceptional_point": 0,
+    "five_complementary_pair_rows": [
+      {
+        "complementary": true,
+        "outside_point": null,
+        "pair_kind": "root",
+        "phase_profile": {
+          "0": 1,
+          "1": 1
+        },
+        "q15_vertices": [
+          0,
+          0
+        ],
+        "q30_fibers": [
+          0,
+          8
+        ]
+      },
+      {
+        "complementary": true,
+        "outside_point": 0,
+        "pair_kind": "outside_point",
+        "phase1_root_endpoint": 3,
+        "phase_profile": {
+          "0": 1,
+          "1": 1
+        },
+        "q15_vertices": [
+          7,
+          13
+        ],
+        "q30_fibers": [
+          19,
+          28
+        ]
+      },
+      {
+        "complementary": true,
+        "outside_point": 1,
+        "pair_kind": "outside_point",
+        "phase1_root_endpoint": 2,
+        "phase_profile": {
+          "0": 1,
+          "1": 1
+        },
+        "q15_vertices": [
+          8,
+          12
+        ],
+        "q30_fibers": [
+          13,
+          26
+        ]
+      },
+      {
+        "complementary": true,
+        "outside_point": 4,
+        "pair_kind": "outside_point",
+        "phase1_root_endpoint": 2,
+        "phase_profile": {
+          "0": 1,
+          "1": 1
+        },
+        "q15_vertices": [
+          2,
+          6
+        ],
+        "q30_fibers": [
+          2,
+          15
+        ]
+      },
+      {
+        "complementary": true,
+        "outside_point": 5,
+        "pair_kind": "outside_point",
+        "phase1_root_endpoint": 2,
+        "phase_profile": {
+          "0": 1,
+          "1": 1
+        },
+        "q15_vertices": [
+          3,
+          10
+        ],
+        "q30_fibers": [
+          6,
+          20
+        ]
+      }
+    ],
+    "majority_coset": "B",
+    "minority_coset": "A",
+    "minority_rich_endpoint": 2,
+    "minority_sparse_endpoint": 3,
+    "minority_split_vertices": [
+      2,
+      8,
+      13
+    ],
+    "multiplier_rule": {
+      "C22": "Both states in each C22 G30 fiber receive multiplier 2.",
+      "C23": "Within each C23 a-fiber, the vertex whose registered a-phase equals the reconstructed target phase receives multiplier 3; its a-companion receives multiplier 2.",
+      "C33": "Both states in each Theorem110 C33 G30 fiber receive multiplier 3."
+    },
+    "orientation_block_sizes": {
+      "A": 3,
+      "B": 5
+    },
+    "outside_point_candidates": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "root_C23_g30_pair": [
+      0,
+      8
+    ],
+    "root_duad": [
+      2,
+      3
+    ],
+    "root_endpoint_minority_degrees": {
+      "2": 2,
+      "3": 1
+    },
+    "root_g15_vertex": 0,
+    "root_phase1_coset": "A",
+    "split_orientation_by_g15_vertex": {
+      "10": "B",
+      "12": "B",
+      "13": "A",
+      "2": "A",
+      "3": "B",
+      "6": "B",
+      "7": "B",
+      "8": "A"
+    },
+    "split_vertices": [
+      2,
+      3,
+      6,
+      7,
+      8,
+      10,
+      12,
+      13
+    ],
+    "state_to_duad": {
+      "0": [
+        2,
+        3
+      ],
+      "1": [
+        0,
+        5
+      ],
+      "10": [
+        3,
+        5
+      ],
+      "11": [
+        1,
+        4
+      ],
+      "12": [
+        1,
+        3
+      ],
+      "13": [
+        0,
+        2
+      ],
+      "14": [
+        4,
+        5
+      ],
+      "2": [
+        3,
+        4
+      ],
+      "3": [
+        2,
+        5
+      ],
+      "4": [
+        0,
+        4
+      ],
+      "5": [
+        0,
+        1
+      ],
+      "6": [
+        2,
+        4
+      ],
+      "7": [
+        0,
+        3
+      ],
+      "8": [
+        1,
+        2
+      ],
+      "9": [
+        1,
+        5
+      ]
+    },
+    "state_to_duad_selector": "role_value_at_0",
+    "target_phase_by_C23_g30": {
+      "0": 1,
+      "13": 1,
+      "15": 1,
+      "19": 0,
+      "2": 0,
+      "20": 0,
+      "26": 0,
+      "28": 1,
+      "6": 1,
+      "8": 0
+    }
+  },
+  "interpretation": {
+    "earned": "The registered multiplier assignment compresses to the rooted unordered packet, the exported V4 chart, Theorem110's C33 closure, and one exceptional choice among four outside K6 points.",
+    "not_earned": "The graph and saved K5 or root-role data do not derive exceptional point 0 or make the exported V4 chart native."
+  },
+  "keeper": "Sixty multiplier values reconstruct from the registered packet plus one unresolved four-way point choice.",
+  "measurements": {
+    "full_assignment_mismatch_count": 0,
+    "full_assignment_reconstructed_exactly": true,
+    "no_exception_control_mismatch_count": 4,
+    "no_exception_control_mismatch_states": [
+      22,
+      37,
+      53,
+      58
+    ],
+    "reconstructed_assignment_profile": {
+      "2": 40,
+      "3": 20
+    },
+    "residual_exception_candidate_count": 4,
+    "residual_registered_choice_size": 4,
+    "source_assignment_profile": {
+      "2": 40,
+      "3": 20
+    }
+  },
+  "registered_inputs": {
+    "exceptional_outside_point": 0,
+    "exported_v4_representative_chart": [
+      {
+        "exported_equals_minimum": true,
+        "exported_representative": 0,
+        "generated_coordinates": {
+          "1": 0,
+          "a": 40,
+          "ab": 8,
+          "b": 15
+        },
+        "minimum_representative": 0,
+        "orbit": [
+          0,
+          8,
+          15,
+          40
+        ],
+        "q15": 0
+      },
+      {
+        "exported_equals_minimum": true,
+        "exported_representative": 1,
+        "generated_coordinates": {
+          "1": 1,
+          "a": 50,
+          "ab": 9,
+          "b": 25
+        },
+        "minimum_representative": 1,
+        "orbit": [
+          1,
+          9,
+          25,
+          50
+        ],
+        "q15": 1
+      },
+      {
+        "exported_equals_minimum": true,
+        "exported_representative": 2,
+        "generated_coordinates": {
+          "1": 2,
+          "a": 10,
+          "ab": 5,
+          "b": 35
+        },
+        "minimum_representative": 2,
+        "orbit": [
+          2,
+          5,
+          10,
+          35
+        ],
+        "q15": 2
+      },
+      {
+        "exported_equals_minimum": true,
+        "exported_representative": 3,
+        "generated_coordinates": {
+          "1": 3,
+          "a": 20,
+          "ab": 6,
+          "b": 45
+        },
+        "minimum_representative": 3,
+        "orbit": [
+          3,
+          6,
+          20,
+          45
+        ],
+        "q15": 3
+      },
+      {
+        "exported_equals_minimum": true,
+        "exported_representative": 4,
+        "generated_coordinates": {
+          "1": 4,
+          "a": 30,
+          "ab": 7,
+          "b": 55
+        },
+        "minimum_representative": 4,
+        "orbit": [
+          4,
+          7,
+          30,
+          55
+        ],
+        "q15": 4
+      },
+      {
+        "exported_equals_minimum": true,
+        "exported_representative": 11,
+        "generated_coordinates": {
+          "1": 11,
+          "a": 46,
+          "ab": 39,
+          "b": 24
+        },
+        "minimum_representative": 11,
+        "orbit": [
+          11,
+          24,
+          39,
+          46
+        ],
+        "q15": 5
+      },
+      {
+        "exported_equals_minimum": true,
+        "exported_representative": 12,
+        "generated_coordinates": {
+          "1": 12,
+          "a": 43,
+          "ab": 38,
+          "b": 17
+        },
+        "minimum_representative": 12,
+        "orbit": [
+          12,
+          17,
+          38,
+          43
+        ],
+        "q15": 6
+      },
+      {
+        "exported_equals_minimum": true,
+        "exported_representative": 13,
+        "generated_coordinates": {
+          "1": 13,
+          "a": 32,
+          "ab": 37,
+          "b": 58
+        },
+        "minimum_representative": 13,
+        "orbit": [
+          13,
+          32,
+          37,
+          58
+        ],
+        "q15": 7
+      },
+      {
+        "exported_equals_minimum": true,
+        "exported_representative": 14,
+        "generated_coordinates": {
+          "1": 14,
+          "a": 29,
+          "ab": 36,
+          "b": 51
+        },
+        "minimum_representative": 14,
+        "orbit": [
+          14,
+          29,
+          36,
+          51
+        ],
+        "q15": 8
+      },
+      {
+        "exported_equals_minimum": true,
+        "exported_representative": 16,
+        "generated_coordinates": {
+          "1": 16,
+          "a": 31,
+          "ab": 44,
+          "b": 59
+        },
+        "minimum_representative": 16,
+        "orbit": [
+          16,
+          31,
+          44,
+          59
+        ],
+        "q15": 9
+      },
+      {
+        "exported_equals_minimum": true,
+        "exported_representative": 18,
+        "generated_coordinates": {
+          "1": 18,
+          "a": 47,
+          "ab": 42,
+          "b": 23
+        },
+        "minimum_representative": 18,
+        "orbit": [
+          18,
+          23,
+          42,
+          47
+        ],
+        "q15": 10
+      },
+      {
+        "exported_equals_minimum": true,
+        "exported_representative": 19,
+        "generated_coordinates": {
+          "1": 19,
+          "a": 54,
+          "ab": 41,
+          "b": 26
+        },
+        "minimum_representative": 19,
+        "orbit": [
+          19,
+          26,
+          41,
+          54
+        ],
+        "q15": 11
+      },
+      {
+        "exported_equals_minimum": true,
+        "exported_representative": 21,
+        "generated_coordinates": {
+          "1": 21,
+          "a": 56,
+          "ab": 49,
+          "b": 34
+        },
+        "minimum_representative": 21,
+        "orbit": [
+          21,
+          34,
+          49,
+          56
+        ],
+        "q15": 12
+      },
+      {
+        "exported_equals_minimum": true,
+        "exported_representative": 22,
+        "generated_coordinates": {
+          "1": 22,
+          "a": 53,
+          "ab": 48,
+          "b": 27
+        },
+        "minimum_representative": 22,
+        "orbit": [
+          22,
+          27,
+          48,
+          53
+        ],
+        "q15": 13
+      },
+      {
+        "exported_equals_minimum": true,
+        "exported_representative": 28,
+        "generated_coordinates": {
+          "1": 28,
+          "a": 57,
+          "ab": 52,
+          "b": 33
+        },
+        "minimum_representative": 28,
+        "orbit": [
+          28,
+          33,
+          52,
+          57
+        ],
+        "q15": 14
+      }
+    ],
+    "root_duad": [
+      2,
+      3
+    ],
+    "root_g15_vertex": 0,
+    "theorem110_C33_g15_star": [
+      2,
+      4,
+      6,
+      11,
+      14
+    ],
+    "theorem110_C33_g30_fibers": [
+      4,
+      5,
+      11,
+      17,
+      24
+    ],
+    "unordered_C23_g30_fibers": [
+      0,
+      2,
+      6,
+      8,
+      13,
+      15,
+      19,
+      20,
+      26,
+      28
+    ]
+  },
+  "sources": {
+    "g60_to_g30_certificate_035": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/sources/project42_g60_to_g30_a_quotient_certificate_035.json",
+      "sha256": "acaf79c52d5d83915afc425ba5b2e0547f168b73d1db7f144898599d30654822"
+    },
+    "native_v4_recovery_052": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_v4_recovery_052.json",
+      "sha256": "8ddf9791ff0814ced4b72ea14a4c7f330f1b0de577579ec3755b0d411f83f9ca"
+    },
+    "registered_c33_theorem_110": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/artifacts/json/registered_multiplier_c33_partition_reconstruction_theorem_110.v1.json",
+      "sha256": "57c5ba7f9de794a580b1af30a9e4402784799f2585b24b1ab2c813ac46246235"
+    },
+    "registered_multiplier_source_090": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/artifacts/json/registered_multiplier_decorated_recentered_seam_theorem_090.v1.json",
+      "sha256": "1be9552ac44483f04953c624215f7aa198701fb18ddf37b611230a68f38cadaf"
+    },
+    "synthematic_transport_audit_020": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/synthematic_total_534_transport_tower_audit_020.json",
+      "sha256": "bd45e9224afaa22ae39855fb87ed391221340a6bb5b9375edcc012d2610449e4"
+    },
+    "voltage_character_quotient_057": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_v4_voltage_character_quotients_057.json",
+      "sha256": "d432fd5ff63bc7504d4e8c53f5d9401fc1eb873601d0f7f9caa05fe4052d84cb"
+    }
+  },
+  "theorem_statement": "Given the registered multiplier root, the unordered C23 packet, the exported Project42 V4 chart, Theorem110's C33 partition reconstruction, and exceptional outside point 0, the five complementary C23 phase pairs reconstruct the complete sixty-state multiplier assignment. The exact rule uses the minority a-coset on the root pair, the minority-rich root endpoint on the four outside-point pairs, and reverses the pair at exceptional point 0.",
+  "verdict": "registered_packet_plus_one_exceptional_point_reconstructs_all_sixty_multiplier_values"
+}
