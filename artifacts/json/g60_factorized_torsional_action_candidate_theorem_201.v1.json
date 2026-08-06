@@ -1,0 +1,265 @@
+{
+  "artifact_id": "g60_factorized_torsional_action_candidate_theorem_201",
+  "audit_pass": true,
+  "boundary": {
+    "backaction_value_is_unique_only_given_equilibrium_target": true,
+    "emission_backaction_causal_rule_is_author_supplied": true,
+    "emission_is_not_scalar_balance_term": true,
+    "finite_operator_is_exact_within_declared_candidate": true,
+    "jurisdiction_assignment_is_author_supplied": true,
+    "ledger_is_exact_within_declared_candidate": true,
+    "no_archive_derivation_claim": true,
+    "no_continuous_physics_claim": true,
+    "no_native_dynamics_claim": true
+  },
+  "candidate_interpretation": {
+    "full_turn_candidate_observable": "candidate maximum G60 action",
+    "g15_role": "emission-triggered inner backaction closure",
+    "g60_role": "finite torsional potential carrier",
+    "g900_role": "outer full-turn restoration",
+    "half_turn_candidate_observable": "candidate gravity threshold"
+  },
+  "checks": {
+    "continuous_momentum_law_derived": false,
+    "energy_conservation_law_derived": false,
+    "finite_action_ledger_balanced": true,
+    "five_state_operator_exact": true,
+    "g15_backaction_unique_given_equilibrium_target": true,
+    "g15_inner_jurisdiction_declared": true,
+    "g900_outer_jurisdiction_declared": true,
+    "minimum_release_factorization_exact": true,
+    "native_emission_operator_bound": false,
+    "native_g15_operator_bound": false,
+    "native_g900_operator_bound": false,
+    "operator_bounded": true,
+    "operator_reversal_covariant": true,
+    "orthogonal_passage_holds_state": true,
+    "passage_release_control_bit_required": true,
+    "perfect_180_emission_typed": true,
+    "physical_electron_claim": false,
+    "physical_emission_claim": false,
+    "physical_gravity_claim": false,
+    "physics_claim": false,
+    "signed_receipt_preserved_at_equilibrium": true
+  },
+  "finite_action_ledger": {
+    "emission_double_counted_as_scalar_action": false,
+    "forward_balance": {
+      "external_drive": 2,
+      "g15_backaction": -1,
+      "g900_restoration": -1,
+      "net": 0
+    },
+    "reverse_balance": {
+      "external_drive": -2,
+      "g15_backaction": 1,
+      "g900_restoration": 1,
+      "net": 0
+    },
+    "signed_receipt_survives_equilibrium": true,
+    "unit": "signed_pi_twist_action_unit"
+  },
+  "finite_twist_register": {
+    "bare_zero_orientation_class": [
+      -2,
+      0,
+      2
+    ],
+    "coordinate": "theta",
+    "equilibrium": 0,
+    "first_limits": [
+      -2,
+      2
+    ],
+    "half_turn_states": [
+      -1,
+      1
+    ],
+    "states": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "unit": "pi"
+  },
+  "keeper": "The emission names the release. G15 closes the twist. Equilibrium keeps the receipt.",
+  "minimum_release_factorization": {
+    "exact_on_all_five_states": true,
+    "factorization": "R = R_G900_outer after R_G15_inner",
+    "passage_and_release_require_distinct_typed_events": true,
+    "release_map": "q maps to q-sign(q)"
+  },
+  "next_gate": "Construct a finite observable map on the three reversal orbits {0}, {plus_or_minus_1}, and {plus_or_minus_2}. Test whether the half-turn orbit has a non-arbitrary invariant distinguishing it from equilibrium and first limit before applying the word gravity.",
+  "response_cycles": [
+    {
+      "branch_sign": 1,
+      "conditional_offset": 1,
+      "final_receipt": "8_plus",
+      "ledger_rows": [
+        {
+          "admitted_action_total": 1,
+          "after": 1,
+          "balance_passes": true,
+          "before": 0,
+          "emission_angle_degrees": null,
+          "external_drive": 1,
+          "g15_backaction": 0,
+          "g900_restoration": 0,
+          "stage": "first_nonorthogonal_drive",
+          "stored_twist_delta": 1
+        },
+        {
+          "admitted_action_total": 1,
+          "after": 2,
+          "balance_passes": true,
+          "before": 1,
+          "emission_angle_degrees": null,
+          "external_drive": 1,
+          "g15_backaction": 0,
+          "g900_restoration": 0,
+          "stage": "second_nonorthogonal_drive_to_limit",
+          "stored_twist_delta": 1
+        },
+        {
+          "admitted_action_total": -1,
+          "after": 1,
+          "balance_passes": true,
+          "before": 2,
+          "emission_angle_degrees": null,
+          "external_drive": 0,
+          "g15_backaction": 0,
+          "g900_restoration": -1,
+          "stage": "g900_outer_limit_restoration",
+          "stored_twist_delta": -1
+        },
+        {
+          "admitted_action_total": -1,
+          "after": 0,
+          "balance_passes": true,
+          "before": 1,
+          "emission_angle_degrees": 180,
+          "external_drive": 0,
+          "g15_backaction": -1,
+          "g900_restoration": 0,
+          "stage": "perfect_180_emission_g15_backaction",
+          "stored_twist_delta": -1
+        }
+      ],
+      "orientation": "forward",
+      "path_pi_units": [
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      "selected_lift": "H"
+    },
+    {
+      "branch_sign": -1,
+      "conditional_offset": 2,
+      "final_receipt": "8_minus",
+      "ledger_rows": [
+        {
+          "admitted_action_total": -1,
+          "after": -1,
+          "balance_passes": true,
+          "before": 0,
+          "emission_angle_degrees": null,
+          "external_drive": -1,
+          "g15_backaction": 0,
+          "g900_restoration": 0,
+          "stage": "first_nonorthogonal_drive",
+          "stored_twist_delta": -1
+        },
+        {
+          "admitted_action_total": -1,
+          "after": -2,
+          "balance_passes": true,
+          "before": -1,
+          "emission_angle_degrees": null,
+          "external_drive": -1,
+          "g15_backaction": 0,
+          "g900_restoration": 0,
+          "stage": "second_nonorthogonal_drive_to_limit",
+          "stored_twist_delta": -1
+        },
+        {
+          "admitted_action_total": 1,
+          "after": -1,
+          "balance_passes": true,
+          "before": -2,
+          "emission_angle_degrees": null,
+          "external_drive": 0,
+          "g15_backaction": 0,
+          "g900_restoration": 1,
+          "stage": "g900_outer_limit_restoration",
+          "stored_twist_delta": 1
+        },
+        {
+          "admitted_action_total": 1,
+          "after": 0,
+          "balance_passes": true,
+          "before": -1,
+          "emission_angle_degrees": 180,
+          "external_drive": 0,
+          "g15_backaction": 1,
+          "g900_restoration": 0,
+          "stage": "perfect_180_emission_g15_backaction",
+          "stored_twist_delta": 1
+        }
+      ],
+      "orientation": "reverse",
+      "path_pi_units": [
+        0,
+        -1,
+        -2,
+        -1,
+        0
+      ],
+      "selected_lift": "H_inverse"
+    }
+  ],
+  "restoration_jurisdiction": {
+    "assignment_author_supplied": true,
+    "inner_half_turn_authority": "G15",
+    "inner_transition": "plus_or_minus_1 maps to 0",
+    "operator_alone_selected_this_assignment": false,
+    "outer_full_turn_authority": "G900",
+    "outer_transition": "plus_or_minus_2 maps to plus_or_minus_1"
+  },
+  "schema": "electron_spins_twice.g60_factorized_torsional_action_candidate_theorem.v1",
+  "source_lock": {
+    "artifact_id": "g60_finite_torsional_response_contract_197",
+    "path": "artifacts/json/g60_finite_torsional_response_contract_197.v1.json",
+    "sha256": "6bb794ca200ad56c6d264e44b03a56f05a9c6f066dc80c0ba2abbe07644ab262",
+    "verdict": "g60_finite_torsional_response_candidate_contract_seeded"
+  },
+  "status": "author_supplied_candidate_dynamics_theorem",
+  "typed_events": {
+    "drive_minus": {
+      "transition": "q maps to max(-2,q-1)"
+    },
+    "drive_plus": {
+      "transition": "q maps to min(2,q+1)"
+    },
+    "g15_inner_backaction": {
+      "transition": "plus_or_minus_1 maps to 0"
+    },
+    "g900_outer_restoration": {
+      "transition": "plus_or_minus_2 maps to plus_or_minus_1"
+    },
+    "orthogonal_passage": {
+      "role": "hold twist while transmitting orientation receipt",
+      "transition": "q maps to q"
+    },
+    "perfect_180_emission": {
+      "counted_as_scalar_torsional_action": false,
+      "relative_angle_degrees": 180,
+      "role": "typed release trigger and signed receipt event"
+    }
+  },
+  "verdict": "bounded_factorized_torsional_operator_and_signed_action_ledger_form_an_exact_candidate_dynamics_theorem"
+}
