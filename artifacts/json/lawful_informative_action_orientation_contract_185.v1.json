@@ -1,0 +1,116 @@
+{
+  "artifact_id": "lawful_informative_action_orientation_contract_185",
+  "audit_pass": true,
+  "candidate_law": {
+    "admission": "Only an admitted action with directed incidence enters the orientation selector.",
+    "framing": "G900 places the native G60 mirror axis in the declared orthogonal or complementary relation to the arriving incidence.",
+    "orientation": "The arriving directed incidence selects one element of the two-element G60 orientation torsor.",
+    "reversal_covariance": "F(a_inverse) = inverse(F(a))",
+    "transport": "The admitted action proceeds through G60 along the incidence carried by the arriving action.",
+    "unoriented_boundary": "An action lacking directed incidence does not select H or H_inverse."
+  },
+  "checks": {
+    "absolute_internal_orientation_claimed": false,
+    "action_incidence_encoder_constructed": false,
+    "action_reversal_exchanges_offsets1_and2": true,
+    "action_reversal_exchanges_orientation_lifts": true,
+    "admission_predicate_constructed": false,
+    "artifact184_locked": true,
+    "candidate_contract_only": true,
+    "negative_generator_sends_offset4_to_offset2": true,
+    "orthogonal_pairing_constructed": false,
+    "physics_claim": false,
+    "positive_generator_sends_offset4_to_offset1": true,
+    "premultiplier_offset1_unconditionally_selected": false,
+    "reflection_conjugates_positive_to_negative": true,
+    "reflection_fixes_offset4": true,
+    "reflection_is_involution": true,
+    "transport_operator_constructed": false,
+    "unoriented_action_selects_orientation": false
+  },
+  "classification": "lawful_informative_action_relational_orientation_contract_seeded",
+  "conditional_target_readout": [
+    {
+      "action_orientation": "forward",
+      "mirror_offset": 4,
+      "selected_lift": "H",
+      "successor_offset": 1
+    },
+    {
+      "action_orientation": "reverse",
+      "mirror_offset": 4,
+      "selected_lift": "H_inverse",
+      "successor_offset": 2
+    }
+  ],
+  "interpretation": "The rule is relational rather than absolute. G60 contributes its intrinsic mirror axis and inverse orientation pair. The arriving lawful action contributes the directed incidence that may select one member of that pair. Reversing the action reverses the selected lift and exchanges offsets 1 and 2.",
+  "keeper": "The mirror belongs to G60. The arrow belongs to the action. G900 must lawfully join them.",
+  "next_gate": "Bind one exact candidate arriving-action record and define the combinatorial orthogonality or complementary-incidence pairing. Then test uniqueness, reversal covariance, incidence-supported transport, and receipt preservation.",
+  "objects": {
+    "action_reversal": "a maps to a_inverse",
+    "g60_orientation_torsor": [
+      "H",
+      "H_inverse"
+    ],
+    "lawful_action_domain": "A_lawful",
+    "native_mirror_offset": 4,
+    "orientation_reversal": "H maps to H_inverse",
+    "target_negative_rotation": [
+      3,
+      4,
+      0,
+      1,
+      2
+    ],
+    "target_positive_rotation": [
+      2,
+      3,
+      4,
+      0,
+      1
+    ],
+    "target_reflection": [
+      3,
+      2,
+      1,
+      0,
+      4
+    ]
+  },
+  "open_boundary": {
+    "exact_admission_predicate_constructed": false,
+    "exact_arrival_incidence_schema_bound": false,
+    "exact_lawful_action_domain_constructed": false,
+    "incidence_transport_operator_constructed": false,
+    "offset1_selected_without_action_input": false,
+    "orthogonality_non_degenerate": false,
+    "orthogonality_pairing_defined": false,
+    "physical_external_action_identified": false,
+    "physics_claim": false,
+    "receipt_preservation_proved": false,
+    "reversal_covariance_tested_on_native_actions": false,
+    "unique_orientation_for_every_admitted_action_proved": false
+  },
+  "required_action_record": {
+    "action_id": "stable identifier",
+    "admission_status": "candidate, admitted, or rejected",
+    "arrival_boundary": "registered encounter boundary",
+    "arrival_incidence": "ordered incidence carrier",
+    "direction": "forward or reverse relative to the incidence carrier",
+    "receipt_policy": "required boundary-preserving receipt",
+    "reverse_action_id": "identifier of the reversed action"
+  },
+  "schema": "electron_spins_twice.lawful_informative_action_orientation_contract.v1",
+  "source_authority": {
+    "archive_recovery_claim": false,
+    "kind": "author_supplied_semantics",
+    "prior_theorem": {
+      "artifact_id": "native_orientation_archive_terminal_checkpoint_184",
+      "classification": "bounded_archive_complete_native_mirror_axis_with_unresolved_C4_and_D5_orientation_sign",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/artifacts/json/native_orientation_archive_terminal_checkpoint_184.v1.json",
+      "sha256": "c57f2e165bcd7376247e7fffbb334ee92d5d719cf6bae971c48523d309db4318"
+    },
+    "statement": "If external action is encountered, G900 orients G60 orthogonally to the action, and the action proceeds through the structure in accordance with the incidence of the arriving action."
+  },
+  "status": "author_supplied_candidate_construction_contract"
+}
