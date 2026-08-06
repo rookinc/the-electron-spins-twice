@@ -1,0 +1,185 @@
+{
+  "action_geometry": {
+    "action_reversal_rule": "reverse arriving action sends theta to -theta, H to H_inverse, and offset1 to offset2",
+    "arriving_action_decomposition": "a = a_perpendicular + a_nonorthogonal",
+    "nonorthogonal_rule": "a_nonorthogonal != 0 supplies signed torsional drive",
+    "perfectly_orthogonal_rule": "a_nonorthogonal = 0 implies no G60 twist while the orientation receipt may pass through"
+  },
+  "artifact_id": "g60_finite_torsional_response_contract_197",
+  "audit_pass": true,
+  "boundary": {
+    "continuous_time_solution_supplied": false,
+    "directional_receipt_is_prior_earned_structure": true,
+    "electron_potential_is_candidate_interpretation": true,
+    "energy_scale_supplied": false,
+    "experimental_observable_supplied": false,
+    "g15_g900_restoration_is_candidate_interpretation": true,
+    "gravity_at_half_twist_is_candidate_interpretation": true,
+    "maximum_action_at_full_turn_is_candidate_interpretation": true,
+    "physics_theorem": false,
+    "torsional_response_law_is_new_author_hypothesis": true
+  },
+  "candidate_dynamics": {
+    "equation": "I_eff * theta_ddot = tau_in + tau_60(theta) + tau_15(theta) + tau_900(theta)",
+    "equilibrium": "theta = 0",
+    "restoration_direction": "strictly toward zero on the discrete candidate register",
+    "tau_15_role": "G15 supplies proposed quotient-level restoration toward equilibrium",
+    "tau_60_role": "G60 stores the proposed electron potential and reaches maximum permitted action at the first full-turn limit",
+    "tau_900_role": "G900 supplies proposed ambient-incidence restoration toward equilibrium",
+    "tau_in_role": "nonorthogonal arriving action drives signed twist"
+  },
+  "checks": {
+    "action_reversal_covariance_defined": true,
+    "finite_twist_register_defined": true,
+    "full_turn_candidate_limit_defined": true,
+    "g15_restoration_role_declared": true,
+    "g900_restoration_role_declared": true,
+    "half_twist_candidate_threshold_defined": true,
+    "native_action_magnitude_encoder_bound": false,
+    "native_electron_potential_derived": false,
+    "native_gravity_observable_derived": false,
+    "native_maximum_action_law_derived": false,
+    "native_restoration_dynamics_derived": false,
+    "native_torque_operator_bound": false,
+    "nonorthogonal_signed_drive_defined": true,
+    "perfectly_orthogonal_passage_defined": true,
+    "physical_electron_claim": false,
+    "physical_gravity_claim": false
+  },
+  "keeper": "Orthogonal action passes through. Nonorthogonal action winds the potential. The finite structure must answer at its first limit.",
+  "next_gate": "Construct the minimum finite torsional operator on the five-state lifted register and test reversal covariance, bounded action, threshold behavior, and restoration without naming the candidate gravity observable as physical gravity.",
+  "response_regimes": [
+    {
+      "condition": "a_nonorthogonal = 0",
+      "id": "orthogonal_passage",
+      "result": "theta remains zero and the directional receipt passes through"
+    },
+    {
+      "condition": "0 < absolute(theta) < 2pi",
+      "id": "sub_limit_torsional_loading",
+      "result": "G60 carries signed finite twist"
+    },
+    {
+      "condition": "absolute(theta) = pi",
+      "id": "half_twist_threshold",
+      "result": "candidate gravity observable becomes available"
+    },
+    {
+      "condition": "absolute(theta) = 2pi",
+      "id": "first_full_turn_limit",
+      "result": "candidate G60 action is maximal"
+    },
+    {
+      "condition": "arriving drive no longer exceeds restoration",
+      "id": "restoration",
+      "result": "G15 and G900 draw the signed G60 twist toward theta equals zero"
+    }
+  ],
+  "schema": "electron_spins_twice.g60_finite_torsional_response_contract.v1",
+  "scope": {
+    "archive_search_continued": false,
+    "native_directional_receipt_inherited": true,
+    "native_dynamics_inherited": false,
+    "new_forward_theory": true,
+    "physics_theorem_inherited": false
+  },
+  "source_lock": {
+    "artifact_id": "action_aware_emergence_candidate_theorem_195",
+    "path": "artifacts/json/action_aware_emergence_candidate_theorem_195.v1.json",
+    "sha256": "957c8342f5d2206c22b961c23f5e9f323342f790526ae16ccc5884017759bd7d",
+    "verdict": "native_arriving_incidence_and_lawful_action_define_a_complete_mirror_equivariant_signed_emergence_receipt_candidate"
+  },
+  "status": "author_supplied_candidate_dynamics_contract",
+  "thresholds": {
+    "candidate_gravity_onset": {
+      "absolute_twist": "pi",
+      "physical_observable_constructed": false,
+      "reversal_even": true,
+      "twist_units_pi": 1
+    },
+    "first_action_limit": {
+      "absolute_twist": "2pi",
+      "g60_action_maximal_by_contract": true,
+      "native_maximum_action_law_constructed": false,
+      "twist_units_pi": 2
+    }
+  },
+  "twist_register": {
+    "admitted_discrete_states": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "bare_quotient_identifies_zero_and_full_turn_orientation": true,
+    "coordinate": "theta",
+    "lifted_domain": "[-2pi,2pi]",
+    "ordinary_circle_quotient_used_as_full_state": false,
+    "rows": [
+      {
+        "angle_label": "-2pi",
+        "bare_orientation_class_mod_2": 0,
+        "candidate_g60_action_is_maximum": true,
+        "candidate_gravity_observable": true,
+        "conditional_offset": 2,
+        "first_limit_reached": true,
+        "receipt_orientation": "reverse",
+        "restoration_next_twist_units_pi": -1,
+        "selected_lift": "H_inverse",
+        "twist_units_pi": -2
+      },
+      {
+        "angle_label": "-pi",
+        "bare_orientation_class_mod_2": 1,
+        "candidate_g60_action_is_maximum": false,
+        "candidate_gravity_observable": true,
+        "conditional_offset": 2,
+        "first_limit_reached": false,
+        "receipt_orientation": "reverse",
+        "restoration_next_twist_units_pi": 0,
+        "selected_lift": "H_inverse",
+        "twist_units_pi": -1
+      },
+      {
+        "angle_label": "0",
+        "bare_orientation_class_mod_2": 0,
+        "candidate_g60_action_is_maximum": false,
+        "candidate_gravity_observable": false,
+        "conditional_offset": null,
+        "first_limit_reached": false,
+        "receipt_orientation": "unoriented",
+        "restoration_next_twist_units_pi": 0,
+        "selected_lift": null,
+        "twist_units_pi": 0
+      },
+      {
+        "angle_label": "pi",
+        "bare_orientation_class_mod_2": 1,
+        "candidate_g60_action_is_maximum": false,
+        "candidate_gravity_observable": true,
+        "conditional_offset": 1,
+        "first_limit_reached": false,
+        "receipt_orientation": "forward",
+        "restoration_next_twist_units_pi": 0,
+        "selected_lift": "H",
+        "twist_units_pi": 1
+      },
+      {
+        "angle_label": "2pi",
+        "bare_orientation_class_mod_2": 0,
+        "candidate_g60_action_is_maximum": true,
+        "candidate_gravity_observable": true,
+        "conditional_offset": 1,
+        "first_limit_reached": true,
+        "receipt_orientation": "forward",
+        "restoration_next_twist_units_pi": 1,
+        "selected_lift": "H",
+        "twist_units_pi": 2
+      }
+    ],
+    "signed_receipt_distinguishes_positive_and_negative_full_turns": true,
+    "unit": "pi"
+  },
+  "verdict": "g60_finite_torsional_response_candidate_contract_seeded"
+}
