@@ -1,0 +1,289 @@
+{
+  "V4_action": {
+    "affine_coordinate_failure_count": 0,
+    "centralizes_V4_pointwise": true,
+    "conjugation_action": {
+      "1": "1",
+      "a": "a",
+      "ab": "ab",
+      "b": "b"
+    },
+    "is_native_character_exchange_involution": false,
+    "local_translation_by_G15_vertex": {
+      "0": "ab",
+      "1": "a",
+      "10": "a",
+      "11": "a",
+      "12": "b",
+      "13": "b",
+      "14": "1",
+      "2": "ab",
+      "3": "a",
+      "4": "a",
+      "5": "b",
+      "6": "ab",
+      "7": "b",
+      "8": "b",
+      "9": "a"
+    },
+    "local_translation_profile": {
+      "1": 1,
+      "a": 6,
+      "ab": 3,
+      "b": 5
+    }
+  },
+  "artifact_id": "registered_multiplier_assignment_mirror_identity_theorem_128",
+  "artifact_type": "registered_semantic_identity_theorem",
+  "artifact_version": 1,
+  "audit_pass": true,
+  "boundary": {
+    "character_exchange_identity_rejected": true,
+    "chosen_orbit_member_derived": false,
+    "descriptive_half_turn_name_uses_exported_D8_coordinate": true,
+    "multiplier_origin_derived": false,
+    "physical_geometry_claimed": false,
+    "registered_finite_group_identity_only": true
+  },
+  "checks": {
+    "C33_point_4_is_fixed": true,
+    "K6_action_is_01_23": true,
+    "V4_conjugation_action_is_identity": true,
+    "all_source_audits_pass": true,
+    "assignment_mirror_centralizes_V4_pointwise": true,
+    "assignment_mirror_has_order_2": true,
+    "assignment_mirror_is_not_character_exchange": true,
+    "d8_coordinate_is_rotation_2_without_flip": true,
+    "eight_registered_cycle_pairs_exchanged": true,
+    "eight_registered_cycles_fixed": true,
+    "exception_0_is_exchanged_with_1": true,
+    "fiber_product_source_row_69_matches_exactly": true,
+    "local_affine_translation_law_exact": true,
+    "registered_ten_cycle_family_preserved": true,
+    "root_duad_endpoints_2_3_are_exchanged": true,
+    "s5_coordinate_is_double_transposition": true
+  },
+  "fiber_product_identity": {
+    "actual_index": 69,
+    "actual_order": 2,
+    "descriptive_name": "diagonal_S5_double_transposition_D8_half_turn_lift",
+    "mapping_row_path": "$.mapping_rows[69]",
+    "reference_element": {
+      "d8_flip": 0,
+      "d8_rotation": 2,
+      "s5_permutation": [
+        1,
+        0,
+        3,
+        2,
+        4
+      ]
+    },
+    "reference_order": 2
+  },
+  "interpretation": {
+    "crossed_stabilizer_role": "It is the assignment-preserving mirror complementary to the exported a deck mirror retained by the packet.",
+    "deck_relation": "It centralizes V4; its chart-level variation is local translation rather than deck-direction exchange.",
+    "earned_name": "The assignment mirror is named from its exact exported S5 x D8 reference coordinate."
+  },
+  "keeper": "The assignment mirror is a diagonal base half-turn with local deck translation, not a permutation of the deck directions.",
+  "quotient_actions": {
+    "C33_point": 4,
+    "C33_point_fixed": true,
+    "G15_action": [
+      0,
+      9,
+      6,
+      10,
+      11,
+      5,
+      2,
+      8,
+      7,
+      1,
+      3,
+      4,
+      13,
+      12,
+      14
+    ],
+    "G30_action": [
+      8,
+      14,
+      15,
+      16,
+      17,
+      11,
+      20,
+      22,
+      0,
+      29,
+      21,
+      5,
+      27,
+      28,
+      1,
+      2,
+      3,
+      4,
+      23,
+      26,
+      6,
+      10,
+      7,
+      18,
+      24,
+      25,
+      19,
+      12,
+      13,
+      9
+    ],
+    "K6_cycle_notation": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "K6_point_action": [
+      1,
+      0,
+      3,
+      2,
+      4,
+      5
+    ],
+    "exceptional_point": 0,
+    "exceptional_point_image": 1,
+    "fixed_K6_points": [
+      4,
+      5
+    ],
+    "root_duad": [
+      2,
+      3
+    ],
+    "root_duad_endpoint_relation": "exchanged"
+  },
+  "registered_cycle_action": {
+    "cycle_action": [
+      17,
+      1,
+      2,
+      20,
+      4,
+      14,
+      19,
+      11,
+      22,
+      9,
+      23,
+      7,
+      12,
+      13,
+      5,
+      21,
+      16,
+      0,
+      18,
+      6,
+      3,
+      15,
+      8,
+      10
+    ],
+    "cycle_orbits": [
+      [
+        0,
+        17
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3,
+        20
+      ],
+      [
+        4
+      ],
+      [
+        5,
+        14
+      ],
+      [
+        6,
+        19
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        8,
+        22
+      ],
+      [
+        9
+      ],
+      [
+        10,
+        23
+      ],
+      [
+        12
+      ],
+      [
+        13
+      ],
+      [
+        15,
+        21
+      ],
+      [
+        16
+      ],
+      [
+        18
+      ]
+    ],
+    "cycle_profile": {
+      "1": 8,
+      "2": 8
+    },
+    "exchanged_cycle_pair_count": 8,
+    "fixed_cycle_count": 8,
+    "registered_ten_cycle_count": 24
+  },
+  "sources": {
+    "character_exchange_theorem_056": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_character_exchange_c2_theorem_056.json",
+      "sha256": "886e8c3ee6fbb82b53ec0e43f7fe1b6c92d99214ee644d19eda6bff20c8333c3"
+    },
+    "crossed_stabilizer_theorem_125": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/artifacts/json/registered_multiplier_crossed_stabilizer_theorem_125.v1.json",
+      "sha256": "608e613ff06d4adcdaab29d20fb9a197d5d8f85a420f2f4adb5435515aa883de"
+    },
+    "fiber_product_isomorphism_044": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json",
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "registered_cycle_orbit_audit_062": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_registered_cycle_orbit_audit_062.json",
+      "sha256": "4db3df790ac4b097b1d04e8cb493ed4170f25d09372a0576a997dd4e09fba62b"
+    },
+    "voltage_chart_057": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_v4_voltage_character_quotients_057.json",
+      "sha256": "d432fd5ff63bc7504d4e8c53f5d9401fc1eb873601d0f7f9caa05fe4052d84cb"
+    }
+  },
+  "theorem_statement": "The nonidentity stabilizer of the complete registered multiplier assignment is the exact fiber-product element with S5 coordinate (0 1)(2 3), fixing 4, and D8 coordinate rotation 2 with no flip. Its induced K6 action is (0 1)(2 3), fixing points 4 and 5. It exchanges the two endpoints 2 and 3 of the multiplier root duad, exchanges exceptional point 0 with point 1, and fixes the reconstructed C33 point 4. It centralizes the native V4 deck group pointwise and is therefore not the native b/ab character-exchange involution. Relative to the exported representative chart, it acts by its base involution together with an exact nonconstant local V4 translation. On the twenty-four registered lifted ten-cycles it fixes eight and exchanges eight pairs.",
+  "verdict": "assignment_mirror_is_diagonal_s5_double_transposition_d8_half_turn_lift"
+}
