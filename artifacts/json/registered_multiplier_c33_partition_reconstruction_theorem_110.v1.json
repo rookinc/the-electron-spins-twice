@@ -1,0 +1,568 @@
+{
+  "artifact_id": "registered_multiplier_c33_partition_reconstruction_theorem_110",
+  "artifact_type": "registered_reconstruction_theorem",
+  "audit_pass": true,
+  "boundary": {
+    "C23_internal_2_3_ordering_derived": false,
+    "a_coset_chart_is_graph_invariant": false,
+    "exported_representatives_are_explicit_inputs": true,
+    "full_multiplier_assignment_origin_derived": false,
+    "global_b_ab_name_exchange_is_harmless": true,
+    "independent_local_gauge_invariance_proved": false,
+    "multiplier_root_origin_derived": false,
+    "native_gauge_selection_proved": false,
+    "numeric_minimum_rule_is_inferred_only": true,
+    "numeric_minimum_rule_is_theorem_input": false,
+    "ordered_split_packet_origin_derived": false,
+    "physical_interpretation_claimed": false,
+    "registered_reconstruction_only": true,
+    "representative_gauge_is_graph_invariant": false
+  },
+  "checks": {
+    "a_coset_chart_not_full_graph_invariant": true,
+    "all_source_audits_pass": true,
+    "assignment_profile_is_40_twos_20_threes": true,
+    "b_ab_exchange_preserves_a_cosets": true,
+    "constructed_G30_set_matches_exact_C33_set": true,
+    "constructed_star_matches_C33_G15_support": true,
+    "derived_chart_coordinate_mismatch_count_zero": true,
+    "derived_chart_matches_saved_chart": true,
+    "exported_representative_count_is_15": true,
+    "exported_representatives_are_consistent": true,
+    "minimum_rule_not_promoted_without_source_text": true,
+    "minority_connector_selects_unique_point": true,
+    "minority_sparse_endpoint_is_unique": true,
+    "orientation_block_profile_is_3_5": true,
+    "representative_gauge_not_full_graph_invariant": true
+  },
+  "construction": {
+    "connector_rows": [
+      {
+        "connector_duad": [
+          0,
+          3
+        ],
+        "connector_is_minority": false,
+        "connector_state": 7,
+        "point": 0
+      },
+      {
+        "connector_duad": [
+          1,
+          3
+        ],
+        "connector_is_minority": false,
+        "connector_state": 12,
+        "point": 1
+      },
+      {
+        "connector_duad": [
+          3,
+          4
+        ],
+        "connector_is_minority": true,
+        "connector_state": 2,
+        "point": 4
+      },
+      {
+        "connector_duad": [
+          3,
+          5
+        ],
+        "connector_is_minority": false,
+        "connector_state": 10,
+        "point": 5
+      }
+    ],
+    "constructed_C33_g15_star": [
+      2,
+      4,
+      6,
+      11,
+      14
+    ],
+    "constructed_C33_g30_fibers": [
+      4,
+      5,
+      11,
+      17,
+      24
+    ],
+    "constructed_point": 4,
+    "internal_fiber_rule": "Choose the minority a-coset fiber at every constructed-star vertex unless that fiber is C23; in that case choose its companion.",
+    "internal_rows": [
+      {
+        "choice_rule": "companion_of_minority_C23",
+        "chosen_q30": 5,
+        "chosen_q30_class": "C33",
+        "minority_q30": 2,
+        "minority_q30_class": "C23",
+        "q15": 2,
+        "q30_pair": [
+          2,
+          5
+        ]
+      },
+      {
+        "choice_rule": "minority_a_coset",
+        "chosen_q30": 4,
+        "chosen_q30_class": "C33",
+        "minority_q30": 4,
+        "minority_q30_class": "C33",
+        "q15": 4,
+        "q30_pair": [
+          4,
+          7
+        ]
+      },
+      {
+        "choice_rule": "minority_a_coset",
+        "chosen_q30": 11,
+        "chosen_q30_class": "C33",
+        "minority_q30": 11,
+        "minority_q30_class": "C33",
+        "q15": 6,
+        "q30_pair": [
+          11,
+          15
+        ]
+      },
+      {
+        "choice_rule": "minority_a_coset",
+        "chosen_q30": 17,
+        "chosen_q30_class": "C33",
+        "minority_q30": 17,
+        "minority_q30_class": "C33",
+        "q15": 11,
+        "q30_pair": [
+          17,
+          22
+        ]
+      },
+      {
+        "choice_rule": "minority_a_coset",
+        "chosen_q30": 24,
+        "chosen_q30_class": "C33",
+        "minority_q30": 24,
+        "minority_q30_class": "C33",
+        "q15": 14,
+        "q30_pair": [
+          24,
+          25
+        ]
+      }
+    ],
+    "majority_split_vertices": [
+      3,
+      6,
+      7,
+      10,
+      12
+    ],
+    "minority_label_in_exported_chart": "A",
+    "minority_sparse_root_endpoint": 3,
+    "minority_split_vertices": [
+      2,
+      8,
+      13
+    ],
+    "orientation_blocks": {
+      "A": [
+        2,
+        8,
+        13
+      ],
+      "B": [
+        3,
+        6,
+        7,
+        10,
+        12
+      ]
+    },
+    "root_duad": [
+      2,
+      3
+    ],
+    "root_endpoint_minority_degrees": {
+      "2": 2,
+      "3": 1
+    },
+    "root_g15_vertex": 0,
+    "split_vertices": [
+      2,
+      3,
+      6,
+      7,
+      8,
+      10,
+      12,
+      13
+    ]
+  },
+  "failed_checks": [],
+  "interpretation": {
+    "earned": "C33 is no longer an independently registered G30 five-set once the exported Project 42 V4 chart is accepted as registered input.",
+    "not_earned": "The graph does not canonically select the exported representatives or the local a-coset gauge."
+  },
+  "keeper": "The chart is authoritative because it was exported, not canonical because the graph demanded it.",
+  "measurements": {
+    "a_coset_chart_preserving_action_count": 4,
+    "assignment_profile": {
+      "2": 40,
+      "3": 20
+    },
+    "coordinate_mismatch_count": 0,
+    "full_g60_action_count": 480,
+    "g30_partition_profile": {
+      "C22": 15,
+      "C23": 10,
+      "C33": 5
+    },
+    "global_a_coset_swap_action_count": 4,
+    "local_a_coset_switch_weight_profile": {
+      "0": 4,
+      "1": 8,
+      "10": 32,
+      "11": 16,
+      "12": 4,
+      "13": 4,
+      "14": 8,
+      "15": 4,
+      "2": 4,
+      "3": 4,
+      "4": 16,
+      "5": 32,
+      "6": 64,
+      "7": 108,
+      "8": 108,
+      "9": 64
+    },
+    "observed_C33_g15_support": [
+      2,
+      4,
+      6,
+      11,
+      14
+    ],
+    "observed_C33_g30_fibers": [
+      4,
+      5,
+      11,
+      17,
+      24
+    ],
+    "representative_gauge_preserving_action_count": 1
+  },
+  "next_gate": "Keep native gauge selection and the internal 2/3 ordering inside each C23 a-fiber open. Do not promote registered chart closure to a native multiplier-origin theorem.",
+  "registered_authority": {
+    "authority_kind": "exported_representative_table_and_saved_V4_actions",
+    "authority_statement": "The exported representatives are theorem inputs. Their equality with numeric orbit minima is recorded as an observation and is not promoted as a source rule.",
+    "explicit_minimum_rule_found": false,
+    "explicit_minimum_rule_hits": [],
+    "minimum_rule_promoted": false,
+    "representative_count": 15,
+    "representatives": [
+      {
+        "exported_equals_observed_minimum": true,
+        "exported_representative": 0,
+        "generated_coordinates": {
+          "1": 0,
+          "a": 40,
+          "ab": 8,
+          "b": 15
+        },
+        "observed_minimum_representative": 0,
+        "orbit": [
+          0,
+          8,
+          15,
+          40
+        ],
+        "q15": 0
+      },
+      {
+        "exported_equals_observed_minimum": true,
+        "exported_representative": 1,
+        "generated_coordinates": {
+          "1": 1,
+          "a": 50,
+          "ab": 9,
+          "b": 25
+        },
+        "observed_minimum_representative": 1,
+        "orbit": [
+          1,
+          9,
+          25,
+          50
+        ],
+        "q15": 1
+      },
+      {
+        "exported_equals_observed_minimum": true,
+        "exported_representative": 2,
+        "generated_coordinates": {
+          "1": 2,
+          "a": 10,
+          "ab": 5,
+          "b": 35
+        },
+        "observed_minimum_representative": 2,
+        "orbit": [
+          2,
+          5,
+          10,
+          35
+        ],
+        "q15": 2
+      },
+      {
+        "exported_equals_observed_minimum": true,
+        "exported_representative": 3,
+        "generated_coordinates": {
+          "1": 3,
+          "a": 20,
+          "ab": 6,
+          "b": 45
+        },
+        "observed_minimum_representative": 3,
+        "orbit": [
+          3,
+          6,
+          20,
+          45
+        ],
+        "q15": 3
+      },
+      {
+        "exported_equals_observed_minimum": true,
+        "exported_representative": 4,
+        "generated_coordinates": {
+          "1": 4,
+          "a": 30,
+          "ab": 7,
+          "b": 55
+        },
+        "observed_minimum_representative": 4,
+        "orbit": [
+          4,
+          7,
+          30,
+          55
+        ],
+        "q15": 4
+      },
+      {
+        "exported_equals_observed_minimum": true,
+        "exported_representative": 11,
+        "generated_coordinates": {
+          "1": 11,
+          "a": 46,
+          "ab": 39,
+          "b": 24
+        },
+        "observed_minimum_representative": 11,
+        "orbit": [
+          11,
+          24,
+          39,
+          46
+        ],
+        "q15": 5
+      },
+      {
+        "exported_equals_observed_minimum": true,
+        "exported_representative": 12,
+        "generated_coordinates": {
+          "1": 12,
+          "a": 43,
+          "ab": 38,
+          "b": 17
+        },
+        "observed_minimum_representative": 12,
+        "orbit": [
+          12,
+          17,
+          38,
+          43
+        ],
+        "q15": 6
+      },
+      {
+        "exported_equals_observed_minimum": true,
+        "exported_representative": 13,
+        "generated_coordinates": {
+          "1": 13,
+          "a": 32,
+          "ab": 37,
+          "b": 58
+        },
+        "observed_minimum_representative": 13,
+        "orbit": [
+          13,
+          32,
+          37,
+          58
+        ],
+        "q15": 7
+      },
+      {
+        "exported_equals_observed_minimum": true,
+        "exported_representative": 14,
+        "generated_coordinates": {
+          "1": 14,
+          "a": 29,
+          "ab": 36,
+          "b": 51
+        },
+        "observed_minimum_representative": 14,
+        "orbit": [
+          14,
+          29,
+          36,
+          51
+        ],
+        "q15": 8
+      },
+      {
+        "exported_equals_observed_minimum": true,
+        "exported_representative": 16,
+        "generated_coordinates": {
+          "1": 16,
+          "a": 31,
+          "ab": 44,
+          "b": 59
+        },
+        "observed_minimum_representative": 16,
+        "orbit": [
+          16,
+          31,
+          44,
+          59
+        ],
+        "q15": 9
+      },
+      {
+        "exported_equals_observed_minimum": true,
+        "exported_representative": 18,
+        "generated_coordinates": {
+          "1": 18,
+          "a": 47,
+          "ab": 42,
+          "b": 23
+        },
+        "observed_minimum_representative": 18,
+        "orbit": [
+          18,
+          23,
+          42,
+          47
+        ],
+        "q15": 10
+      },
+      {
+        "exported_equals_observed_minimum": true,
+        "exported_representative": 19,
+        "generated_coordinates": {
+          "1": 19,
+          "a": 54,
+          "ab": 41,
+          "b": 26
+        },
+        "observed_minimum_representative": 19,
+        "orbit": [
+          19,
+          26,
+          41,
+          54
+        ],
+        "q15": 11
+      },
+      {
+        "exported_equals_observed_minimum": true,
+        "exported_representative": 21,
+        "generated_coordinates": {
+          "1": 21,
+          "a": 56,
+          "ab": 49,
+          "b": 34
+        },
+        "observed_minimum_representative": 21,
+        "orbit": [
+          21,
+          34,
+          49,
+          56
+        ],
+        "q15": 12
+      },
+      {
+        "exported_equals_observed_minimum": true,
+        "exported_representative": 22,
+        "generated_coordinates": {
+          "1": 22,
+          "a": 53,
+          "ab": 48,
+          "b": 27
+        },
+        "observed_minimum_representative": 22,
+        "orbit": [
+          22,
+          27,
+          48,
+          53
+        ],
+        "q15": 13
+      },
+      {
+        "exported_equals_observed_minimum": true,
+        "exported_representative": 28,
+        "generated_coordinates": {
+          "1": 28,
+          "a": 57,
+          "ab": 52,
+          "b": 33
+        },
+        "observed_minimum_representative": 28,
+        "orbit": [
+          28,
+          33,
+          52,
+          57
+        ],
+        "q15": 14
+      }
+    ],
+    "representatives_equal_observed_numeric_minima": true
+  },
+  "schema_version": "1.0",
+  "sources": {
+    "project41_transport_tower_audit020": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/synthematic_total_534_transport_tower_audit_020.json",
+      "sha256": "bd45e9224afaa22ae39855fb87ed391221340a6bb5b9375edcc012d2610449e4"
+    },
+    "project42_full_automorphism_isomorphism044": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json",
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "project42_g60_g30_certificate035": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/sources/project42_g60_to_g30_a_quotient_certificate_035.json",
+      "sha256": "acaf79c52d5d83915afc425ba5b2e0547f168b73d1db7f144898599d30654822"
+    },
+    "project42_native_v4_recovery052": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_v4_recovery_052.json",
+      "sha256": "8ddf9791ff0814ced4b72ea14a4c7f330f1b0de577579ec3755b0d411f83f9ca"
+    },
+    "project42_voltage_character_quotient057": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_v4_voltage_character_quotients_057.json",
+      "sha256": "d432fd5ff63bc7504d4e8c53f5d9401fc1eb873601d0f7f9caa05fe4052d84cb"
+    },
+    "theorem090_multiplier_assignment": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/artifacts/json/registered_multiplier_decorated_recentered_seam_theorem_090.v1.json",
+      "sha256": "1be9552ac44483f04953c624215f7aa198701fb18ddf37b611230a68f38cadaf"
+    }
+  },
+  "theorem_statement": "Given the exported Project 42 V4 representative table, the saved involutions a, b, and ab, the multiplier root, and the ordered C23 split packet, the minority split construction selects the exact C33 K6 point-star and the minority-collision rule reconstructs the exact five C33 G30 fibers.",
+  "verdict": "exported_project42_v4_chart_closes_registered_c33_g30_partition_reconstruction"
+}
